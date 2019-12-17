@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trainings on StaPH-B</title>
+    <link>http://www.staphb.org/training/</link>
+    <description>Recent content in Trainings on StaPH-B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Dec 2019 21:25:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.staphb.org/training/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Long Read Sequencing</title>
+      <link>http://www.staphb.org/training/long-read/</link>
+      <pubDate>Mon, 16 Dec 2019 21:25:23 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/long-read/</guid>
+      <description>Long Read Sequencing content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Data Sharing</title>
+      <link>http://www.staphb.org/training/data-sharing/</link>
+      <pubDate>Mon, 16 Dec 2019 21:25:07 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/data-sharing/</guid>
+      <description>Data Sharing content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>http://www.staphb.org/training/data-visualization/</link>
+      <pubDate>Mon, 16 Dec 2019 21:24:54 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/data-visualization/</guid>
+      <description>Data Visualization content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Metagenomics</title>
+      <link>http://www.staphb.org/training/metagenomics/</link>
+      <pubDate>Mon, 16 Dec 2019 21:24:34 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/metagenomics/</guid>
+      <description>Metagenomics content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Microbial Evolution</title>
+      <link>http://www.staphb.org/training/microbial-evolution/</link>
+      <pubDate>Mon, 16 Dec 2019 21:24:25 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/microbial-evolution/</guid>
+      <description>Microbial Evolution content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics Tool Curation</title>
+      <link>http://www.staphb.org/training/tool-curation/</link>
+      <pubDate>Mon, 16 Dec 2019 21:24:11 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/tool-curation/</guid>
+      <description>Content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Phylogenetics</title>
+      <link>http://www.staphb.org/training/phylogenetics/</link>
+      <pubDate>Mon, 16 Dec 2019 21:23:57 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/phylogenetics/</guid>
+      <description>Phylogenetics content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Serotype</title>
+      <link>http://www.staphb.org/training/serotype/</link>
+      <pubDate>Mon, 16 Dec 2019 21:23:42 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/serotype/</guid>
+      <description>Serotyping content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Anitmicrobial Resistance</title>
+      <link>http://www.staphb.org/training/amr/</link>
+      <pubDate>Mon, 16 Dec 2019 21:23:35 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/amr/</guid>
+      <description>Antimicrobial Resistance content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Genome Assembly</title>
+      <link>http://www.staphb.org/training/genome-assembly/</link>
+      <pubDate>Mon, 16 Dec 2019 21:23:14 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/genome-assembly/</guid>
+      <description>Genome Assembly content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Bacterial Identification</title>
+      <link>http://www.staphb.org/training/bacterial-id/</link>
+      <pubDate>Mon, 16 Dec 2019 21:22:59 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/bacterial-id/</guid>
+      <description>Bacterial Identification content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Validaton and Quality</title>
+      <link>http://www.staphb.org/training/validaton-qc/</link>
+      <pubDate>Mon, 16 Dec 2019 21:22:46 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/validaton-qc/</guid>
+      <description>Validation and Quality content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>http://www.staphb.org/training/cloud_computing/</link>
+      <pubDate>Mon, 16 Dec 2019 18:17:13 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/cloud_computing/</guid>
+      <description>Cloud Computing content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Linux Command Line</title>
+      <link>http://www.staphb.org/training/linux/</link>
+      <pubDate>Mon, 16 Dec 2019 18:17:06 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/linux/</guid>
+      <description>Linx content coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Genomic Epidemiology</title>
+      <link>http://www.staphb.org/training/genomic_epi/</link>
+      <pubDate>Mon, 16 Dec 2019 18:16:57 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/genomic_epi/</guid>
+      <description>Genomic Epidemiology content coming soon!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on StaPH-B</title>
+    <link>http://www.staphb.org/resources/</link>
+    <description>Recent content in Resources on StaPH-B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Dec 2019 20:03:54 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>StaPH-B Videos</title>
+      <link>http://www.staphb.org/resources/staphb-videos/</link>
+      <pubDate>Mon, 16 Dec 2019 20:03:54 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
+      <description>Every month the StaPH-B community gets together for an online presentation. These presenation are recoreded and presented here for your review.
+StaPH-B Monthly Call - December 2019 For our December 2019 call, we have invited Lucy Li and David Dynerman from the Chan-Zuckerberg BioHub to speak about Madrone, a user-friendly bioinformatics platform for cluster analysis and AMR gene detection for carbapenem-resistant Enterobacteriaceae isolates. Madrone was developed in collaboration between the Chan-Zuckerberg BioHub and the Alameda County (CA) Public Health Laboratory to address Alameda&#39;s bioinformatics needs.</description>
+    </item>
+    
+  </channel>
+</rss>
