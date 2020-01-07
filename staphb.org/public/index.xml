@@ -6,10 +6,20 @@
     <description>Recent content on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Dec 2019 21:25:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:44:23 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Glossary of Bioinformatic Terms</title>
+      <link>http://www.staphb.org/resources/glossary/</link>
+      <pubDate>Wed, 18 Dec 2019 00:44:23 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/glossary/</guid>
+      <description>This glossary is adapted from Kelsey Florek and her Midwest Region AMD Pages on GitHub. The glossary is reproduced here for the benefit of those who cannot access GitHub.
+Bioinformatics This discipline is involved in the collection, analysis, and storage of complex biological data, including, but not limited to genetic data. The field combines computer science, statistics, and several aspects of biology to be able to understand highly complex data.</description>
+    </item>
     
     <item>
       <title>Long Read Sequencing</title>
@@ -125,7 +135,7 @@
       <pubDate>Mon, 16 Dec 2019 21:06:09 +0000</pubDate>
       
       <guid>http://www.staphb.org/history/</guid>
-      <description>Who are we? How did this all begin? Well, at first there were four: Kevin Libuit, Sean Wang, Kelly Oakeson, and Joel Sevinsky. And by four Iwemean there were at least four of us bothering Heather Carleton for help with bioinformatics of enteric pathogens. Heather suggested, probably to save herself from answering too many questions and often the same question four times, that the group of should &amp;ldquo;talk amongst ourselves&amp;rdquo;, and our contact information was shared.</description>
+      <description>In the beginning&amp;hellip; Who are we? How did this all begin? Well, at first there were four: Kevin Libuit, Sean Wang, Kelly Oakeson, and Joel Sevinsky. And by four we mean there were at least four of us bothering Heather Carleton for help with bioinformatics of enteric pathogens around winter 2016/2017. Heather suggested, probably to save herself from answering too many questions and often the same question four times, that the group of should &amp;ldquo;talk amongst ourselves&amp;rdquo;, and our contact information was shared.</description>
     </item>
     
     <item>

@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.staphb.org/training/long-read/</loc>
-    <lastmod>2019-12-16T21:25:23+00:00</lastmod>
+    <loc>http://www.staphb.org/resources/glossary/</loc>
+    <lastmod>2019-12-18T00:44:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/</loc>
+    <lastmod>2019-12-18T00:44:23+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.staphb.org/</loc>
+    <lastmod>2019-12-18T00:44:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/long-read/</loc>
     <lastmod>2019-12-16T21:25:23+00:00</lastmod>
   </url>
   
@@ -75,11 +85,6 @@
   <url>
     <loc>http://www.staphb.org/history/</loc>
     <lastmod>2019-12-16T21:06:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/resources/</loc>
-    <lastmod>2019-12-16T20:03:54+00:00</lastmod>
   </url>
   
   <url>

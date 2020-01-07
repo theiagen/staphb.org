@@ -6,10 +6,20 @@
     <description>Recent content in Resources on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Dec 2019 20:03:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:44:23 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Glossary of Bioinformatic Terms</title>
+      <link>http://www.staphb.org/resources/glossary/</link>
+      <pubDate>Wed, 18 Dec 2019 00:44:23 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/glossary/</guid>
+      <description>This glossary is adapted from Kelsey Florek and her Midwest Region AMD Pages on GitHub. The glossary is reproduced here for the benefit of those who cannot access GitHub.
+Bioinformatics This discipline is involved in the collection, analysis, and storage of complex biological data, including, but not limited to genetic data. The field combines computer science, statistics, and several aspects of biology to be able to understand highly complex data.</description>
+    </item>
     
     <item>
       <title>StaPH-B Videos</title>
