@@ -6,10 +6,45 @@
     <description>Recent content on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jan 2020 14:17:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 23:37:03 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software Repositories of Public Health Interest</title>
+      <link>http://www.staphb.org/resources/software_repos/</link>
+      <pubDate>Mon, 20 Jan 2020 23:37:03 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/software_repos/</guid>
+      <description>GitHub Pages  StaPH-B Github Repositories - home directory for many StaPH-B repositories including Docker Builds, StaPH-B Toolkit, CDPHE scripts, and the Utah Reference Free scripts. NCBI AMRFinderPlus - GitHub repository of the NCBI Antimicrobial Resistance Gene Finder (AMRFinderPlus). This is the package used by the NCBI Pathogen Detection Browswer to genotype isolates with respece to antimicrobial resistance.  DockerHub  StaPH-B DockerHub - DockerHub site for all the StaPH-B containers created by StaPH-B members.</description>
+    </item>
+    
+    <item>
+      <title>StaPH-B Videos</title>
+      <link>http://www.staphb.org/resources/staphb-videos/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
+      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
+StaPH-B Monthly Call - January 2020 In this month&#39;s call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit. The StaPH-B ToolKit is a Python library written to relieve the burden of major bioinformatics challenges Kelsey and Kevin have identified throughout our respective regions: access to and proper use of StaPH-B docker images, capture of data lineage information, configurable and distributable pipeline parameters, and the portability of StaPH-B developed workflows.</description>
+    </item>
+    
+    <item>
+      <title>Microbial Species ID Using ANI and Mash</title>
+      <link>http://www.staphb.org/training/bacterial-id/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/bacterial-id/</guid>
+      <description>&lt;h5 id=&#34;demystifying-webinar-series--january-2020--microbial-species-identification&#34;&gt;Demystifying Webinar Series | January 2020 | Microbial Species Identification&lt;/h5&gt;
+&lt;p&gt;For our January 2020 webinar, we discuss how bacterial species identification is conducted using NGS data. Topics focus on both average nucleotide identify (ANI) and Mash, how they are similar, how they are different, and when it is appropriate to use one versus the other.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/S6Wq5V-Hhjo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;../files/Microbial_ID_webinary_January_2020.pdf&#34;&gt;Click here for slides&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Online Resources for Molecular and Genomic Epidemiology</title>
@@ -32,166 +67,12 @@ Bioinformatics This discipline is involved in the collection, analysis, and stor
     </item>
     
     <item>
-      <title>Long Read Sequencing</title>
-      <link>http://www.staphb.org/training/long-read/</link>
-      <pubDate>Mon, 16 Dec 2019 21:25:23 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/long-read/</guid>
-      <description>Long Read Sequencing content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Data Sharing</title>
-      <link>http://www.staphb.org/training/data-sharing/</link>
-      <pubDate>Mon, 16 Dec 2019 21:25:07 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/data-sharing/</guid>
-      <description>Data Sharing content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Data Visualization</title>
-      <link>http://www.staphb.org/training/data-visualization/</link>
-      <pubDate>Mon, 16 Dec 2019 21:24:54 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/data-visualization/</guid>
-      <description>Data Visualization content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Metagenomics</title>
-      <link>http://www.staphb.org/training/metagenomics/</link>
-      <pubDate>Mon, 16 Dec 2019 21:24:34 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/metagenomics/</guid>
-      <description>Metagenomics content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Microbial Evolution</title>
-      <link>http://www.staphb.org/training/microbial-evolution/</link>
-      <pubDate>Mon, 16 Dec 2019 21:24:25 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/microbial-evolution/</guid>
-      <description>Microbial Evolution content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Bioinformatics Tool Curation</title>
-      <link>http://www.staphb.org/training/tool-curation/</link>
-      <pubDate>Mon, 16 Dec 2019 21:24:11 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/tool-curation/</guid>
-      <description>Content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Phylogenetics</title>
-      <link>http://www.staphb.org/training/phylogenetics/</link>
-      <pubDate>Mon, 16 Dec 2019 21:23:57 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/phylogenetics/</guid>
-      <description>Phylogenetics content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Serotype</title>
-      <link>http://www.staphb.org/training/serotype/</link>
-      <pubDate>Mon, 16 Dec 2019 21:23:42 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/serotype/</guid>
-      <description>Serotyping content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Anitmicrobial Resistance</title>
-      <link>http://www.staphb.org/training/amr/</link>
-      <pubDate>Mon, 16 Dec 2019 21:23:35 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/amr/</guid>
-      <description>Antimicrobial Resistance content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Genome Assembly</title>
-      <link>http://www.staphb.org/training/genome-assembly/</link>
-      <pubDate>Mon, 16 Dec 2019 21:23:14 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/genome-assembly/</guid>
-      <description>Genome Assembly content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Bacterial Identification</title>
-      <link>http://www.staphb.org/training/bacterial-id/</link>
-      <pubDate>Mon, 16 Dec 2019 21:22:59 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/bacterial-id/</guid>
-      <description>Bacterial Identification content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Validaton and Quality</title>
-      <link>http://www.staphb.org/training/validaton-qc/</link>
-      <pubDate>Mon, 16 Dec 2019 21:22:46 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/validaton-qc/</guid>
-      <description>Validation and Quality content coming soon!</description>
-    </item>
-    
-    <item>
       <title>History</title>
       <link>http://www.staphb.org/history/</link>
       <pubDate>Mon, 16 Dec 2019 21:06:09 +0000</pubDate>
       
       <guid>http://www.staphb.org/history/</guid>
       <description>In the beginning&amp;hellip; Who are we? How did this all begin? Well, at first there were four: Kevin Libuit, Sean Wang, Kelly Oakeson, and Joel Sevinsky. And by four we mean there were at least four of us bothering Heather Carleton for help with bioinformatics of enteric pathogens around winter 2016/2017. Heather suggested, probably to save herself from answering too many questions and often the same question four times, that the group of should &amp;ldquo;talk amongst ourselves&amp;rdquo;, and our contact information was shared.</description>
-    </item>
-    
-    <item>
-      <title>StaPH-B Videos</title>
-      <link>http://www.staphb.org/resources/staphb-videos/</link>
-      <pubDate>Mon, 16 Dec 2019 20:03:54 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
-      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
-StaPH-B Monthly Call - December 2019 For our December 2019 call, we have invited Lucy Li and David Dynerman from the Chan-Zuckerberg BioHub to speak about Madrone, a user-friendly bioinformatics platform for cluster analysis and AMR gene detection for carbapenem-resistant Enterobacteriaceae isolates. Madrone was developed in collaboration between the Chan-Zuckerberg BioHub and the Alameda County (CA) Public Health Laboratory to address Alameda&#39;s bioinformatics needs.</description>
-    </item>
-    
-    <item>
-      <title>Cloud Computing</title>
-      <link>http://www.staphb.org/training/cloud_computing/</link>
-      <pubDate>Mon, 16 Dec 2019 18:17:13 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/cloud_computing/</guid>
-      <description>Cloud Computing content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Linux Command Line</title>
-      <link>http://www.staphb.org/training/linux/</link>
-      <pubDate>Mon, 16 Dec 2019 18:17:06 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/linux/</guid>
-      <description>Linx content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Genomic Epidemiology</title>
-      <link>http://www.staphb.org/training/genomic_epi/</link>
-      <pubDate>Mon, 16 Dec 2019 18:16:57 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/genomic_epi/</guid>
-      <description>Genomic Epidemiology content coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Containers</title>
-      <link>http://www.staphb.org/projects/containers/</link>
-      <pubDate>Mon, 16 Dec 2019 18:15:50 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/projects/containers/</guid>
-      <description>Content coming soon.</description>
     </item>
     
     <item>

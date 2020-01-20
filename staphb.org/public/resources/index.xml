@@ -6,10 +6,29 @@
     <description>Recent content in Resources on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jan 2020 14:17:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 23:37:03 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software Repositories of Public Health Interest</title>
+      <link>http://www.staphb.org/resources/software_repos/</link>
+      <pubDate>Mon, 20 Jan 2020 23:37:03 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/software_repos/</guid>
+      <description>GitHub Pages  StaPH-B Github Repositories - home directory for many StaPH-B repositories including Docker Builds, StaPH-B Toolkit, CDPHE scripts, and the Utah Reference Free scripts. NCBI AMRFinderPlus - GitHub repository of the NCBI Antimicrobial Resistance Gene Finder (AMRFinderPlus). This is the package used by the NCBI Pathogen Detection Browswer to genotype isolates with respece to antimicrobial resistance.  DockerHub  StaPH-B DockerHub - DockerHub site for all the StaPH-B containers created by StaPH-B members.</description>
+    </item>
+    
+    <item>
+      <title>StaPH-B Videos</title>
+      <link>http://www.staphb.org/resources/staphb-videos/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
+      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
+StaPH-B Monthly Call - January 2020 In this month&#39;s call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit. The StaPH-B ToolKit is a Python library written to relieve the burden of major bioinformatics challenges Kelsey and Kevin have identified throughout our respective regions: access to and proper use of StaPH-B docker images, capture of data lineage information, configurable and distributable pipeline parameters, and the portability of StaPH-B developed workflows.</description>
+    </item>
     
     <item>
       <title>Online Resources for Molecular and Genomic Epidemiology</title>
@@ -29,16 +48,6 @@ New York Integrated Food Safety Center of Excellence The NY Integrated Food Safe
       <guid>http://www.staphb.org/resources/glossary/</guid>
       <description>This glossary is adapted from Kelsey Florek and her Midwest Region AMD Pages on GitHub. The glossary is reproduced here for the benefit of those who cannot access GitHub.
 Bioinformatics This discipline is involved in the collection, analysis, and storage of complex biological data, including, but not limited to genetic data. The field combines computer science, statistics, and several aspects of biology to be able to understand highly complex data.</description>
-    </item>
-    
-    <item>
-      <title>StaPH-B Videos</title>
-      <link>http://www.staphb.org/resources/staphb-videos/</link>
-      <pubDate>Mon, 16 Dec 2019 20:03:54 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
-      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
-StaPH-B Monthly Call - December 2019 For our December 2019 call, we have invited Lucy Li and David Dynerman from the Chan-Zuckerberg BioHub to speak about Madrone, a user-friendly bioinformatics platform for cluster analysis and AMR gene detection for carbapenem-resistant Enterobacteriaceae isolates. Madrone was developed in collaboration between the Chan-Zuckerberg BioHub and the Alameda County (CA) Public Health Laboratory to address Alameda&#39;s bioinformatics needs.</description>
     </item>
     
   </channel>

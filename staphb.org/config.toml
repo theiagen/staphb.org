@@ -33,6 +33,13 @@ disqusShortname = "yourdiscussshortname"
     math = true
     custom_css = ["css/custom.css"]
 
+# change parameter to allow embedded html
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Social links
 [[params.social]]
     name = "Github"
@@ -50,10 +57,6 @@ disqusShortname = "yourdiscussshortname"
     name = "About"
     weight = 2
     url = "/about/"
-[[menu.main]]
-    name = "Projects"
-    weight = 1
-    url  = "/projects/"
 [[menu.main]]
     name = "Training"
     weight = 1

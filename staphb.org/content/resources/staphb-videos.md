@@ -1,9 +1,13 @@
 ---
 title: "StaPH-B Videos"
-date: 2019-12-16T20:03:54Z
+date: 2020-01-20
 draft: false
 ---
 Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
+
+##### StaPH-B Monthly Call - January 2020
+In this month's call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit. The StaPH-B ToolKit is a Python library written to relieve the burden of major bioinformatics challenges Kelsey and Kevin have identified throughout our respective regions: access to and proper use of StaPH-B docker images, capture of data lineage information, configurable and distributable pipeline parameters, and the portability of StaPH-B developed workflows. This call provided a brief overview of the StaPH-B ToolKit, its design concept, and its utility for public health laboratories. Following presentation,  a live-demo of the StaPH-B ToolKit was presented to demonstrate the simple installation requirements and its major functionalities using a sample dataset.
+{{< youtube v62_FAouiV8 >}}
 
 ##### StaPH-B Monthly Call - December 2019
 For our December 2019 call, we have invited Lucy Li and David Dynerman from the Chan-Zuckerberg BioHub to speak about Madrone, a user-friendly bioinformatics platform for cluster analysis and AMR gene detection for carbapenem-resistant Enterobacteriaceae isolates. Madrone was developed in collaboration between the Chan-Zuckerberg BioHub and the Alameda County (CA) Public Health Laboratory to address Alameda's bioinformatics needs. Since its development, Madrone has been made available to a number of public health and healthcare facilities across the US. David and Lucy are leading the Madrone pilot program and are currently seeking other collaborators interested in accessing their platform.

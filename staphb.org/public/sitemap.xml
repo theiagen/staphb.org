@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.staphb.org/resources/online-resources/</loc>
-    <lastmod>2020-01-07T14:17:34+00:00</lastmod>
+    <loc>http://www.staphb.org/resources/</loc>
+    <lastmod>2020-01-20T23:37:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.staphb.org/resources/</loc>
-    <lastmod>2020-01-07T14:17:34+00:00</lastmod>
+    <loc>http://www.staphb.org/resources/software_repos/</loc>
+    <lastmod>2020-01-20T23:37:03+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.staphb.org/</loc>
+    <lastmod>2020-01-20T23:37:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/staphb-videos/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/bacterial-id/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/</loc>
+    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/online-resources/</loc>
     <lastmod>2020-01-07T14:17:34+00:00</lastmod>
   </url>
   
@@ -23,103 +43,8 @@
   </url>
   
   <url>
-    <loc>http://www.staphb.org/training/long-read/</loc>
-    <lastmod>2019-12-16T21:25:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/</loc>
-    <lastmod>2019-12-16T21:25:23+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/data-sharing/</loc>
-    <lastmod>2019-12-16T21:25:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/data-visualization/</loc>
-    <lastmod>2019-12-16T21:24:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/metagenomics/</loc>
-    <lastmod>2019-12-16T21:24:34+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/microbial-evolution/</loc>
-    <lastmod>2019-12-16T21:24:25+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/tool-curation/</loc>
-    <lastmod>2019-12-16T21:24:11+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/phylogenetics/</loc>
-    <lastmod>2019-12-16T21:23:57+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/serotype/</loc>
-    <lastmod>2019-12-16T21:23:42+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/amr/</loc>
-    <lastmod>2019-12-16T21:23:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/genome-assembly/</loc>
-    <lastmod>2019-12-16T21:23:14+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/bacterial-id/</loc>
-    <lastmod>2019-12-16T21:22:59+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/validaton-qc/</loc>
-    <lastmod>2019-12-16T21:22:46+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.staphb.org/history/</loc>
     <lastmod>2019-12-16T21:06:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/resources/staphb-videos/</loc>
-    <lastmod>2019-12-16T20:03:54+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/cloud_computing/</loc>
-    <lastmod>2019-12-16T18:17:13+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/linux/</loc>
-    <lastmod>2019-12-16T18:17:06+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/genomic_epi/</loc>
-    <lastmod>2019-12-16T18:16:57+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/projects/containers/</loc>
-    <lastmod>2019-12-16T18:15:50+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/projects/</loc>
-    <lastmod>2019-12-16T18:15:50+00:00</lastmod>
   </url>
   
   <url>
