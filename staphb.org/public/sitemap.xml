@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.staphb.org/training/bacterial-id/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.staphb.org/resources/</loc>
     <lastmod>2020-01-20T23:37:03+00:00</lastmod>
   </url>
@@ -13,23 +28,8 @@
   </url>
   
   <url>
-    <loc>http://www.staphb.org/</loc>
-    <lastmod>2020-01-20T23:37:03+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.staphb.org/resources/staphb-videos/</loc>
     <lastmod>2020-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/bacterial-id/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/</loc>
-    <lastmod>2020-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

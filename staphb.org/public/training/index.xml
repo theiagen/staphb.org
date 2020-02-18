@@ -6,7 +6,7 @@
     <description>Recent content in Trainings on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/training/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,17 +14,17 @@
     <item>
       <title>Microbial Species ID Using ANI and Mash</title>
       <link>http://www.staphb.org/training/bacterial-id/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>http://www.staphb.org/training/bacterial-id/</guid>
       <description>&lt;h5 id=&#34;demystifying-webinar-series--january-2020--microbial-species-identification&#34;&gt;Demystifying Webinar Series | January 2020 | Microbial Species Identification&lt;/h5&gt;
 &lt;p&gt;For our January 2020 webinar, we discuss how bacterial species identification is conducted using NGS data. Topics focus on both average nucleotide identify (ANI) and Mash, how they are similar, how they are different, and when it is appropriate to use one versus the other.
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/S6Wq5V-Hhjo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2Tk6nTUaz40&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../files/Microbial_ID_webinary_January_2020.pdf&#34;&gt;Click here for slides&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;../files/Microbial_ID_webinary_January_2020_MTN_Region.pdf&#34;&gt;Click here for slides&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

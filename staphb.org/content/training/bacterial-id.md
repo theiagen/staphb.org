@@ -1,14 +1,15 @@
 ---
 title: "Microbial Species ID Using ANI and Mash"
-date: 2020-01-15
+date: 2020-01-22
 draft: false
 ---
 
 ##### Demystifying Webinar Series | January 2020 | Microbial Species Identification
 For our January 2020 webinar, we discuss how bacterial species identification is conducted using NGS data. Topics focus on both average nucleotide identify (ANI) and Mash, how they are similar, how they are different, and when it is appropriate to use one versus the other.
-{{< youtube S6Wq5V-Hhjo >}}
+{{< youtube 2Tk6nTUaz40 >}}
 
-[Click here for slides](../files/Microbial_ID_webinary_January_2020.pdf)
+[Click here for slides](../files/Microbial_ID_webinary_January_2020_MTN_Region.pdf)
+
 
 <!--more-->
 __Tableau data from presentation__
