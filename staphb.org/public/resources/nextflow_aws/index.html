@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <meta name="description" content="StaPH-B Training Website">
+    <meta name="keywords" content="bioinformatics, public health, infectious disease">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Nextfow and AWS Batch Tutorial"/>
+<meta name="twitter:description" content="Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.
+Useful Resources This tutorial was written using Alex Peltzer&rsquo;s guide and Anthony Underwood&rsquo;s guide as resources."/>
+
+    <meta property="og:title" content="Nextfow and AWS Batch Tutorial" />
+<meta property="og:description" content="Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.
+Useful Resources This tutorial was written using Alex Peltzer&rsquo;s guide and Anthony Underwood&rsquo;s guide as resources." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.staphb.org/resources/nextflow_aws/" />
+<meta property="article:published_time" content="2020-03-18T22:48:37+00:00" />
+<meta property="article:modified_time" content="2020-03-18T22:48:37+00:00" />
+
+
+    
+      <base href="http://www.staphb.org/resources/nextflow_aws/">
+    
+    <title>
+  Nextfow and AWS Batch Tutorial · StaPH-B
+</title>
+
+    
+      <link rel="canonical" href="http://www.staphb.org/resources/nextflow_aws/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="http://www.staphb.org/css/coder.min.28d751104f30c16da1aa1bb04015cbe662cacfe0d1b01af4f2240ad58580069c.css" integrity="sha256-KNdREE8wwW2hqhuwQBXL5mLKz&#43;DRsBr08iQK1YWABpw=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="http://www.staphb.org/css/custom.css" />
+    
+
+    
+    
+    <link rel="icon" type="image/png" href="http://www.staphb.org/img/favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://www.staphb.org/img/favicon.ico" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.67.1" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://www.staphb.org/">
+      StaPH-B
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.staphb.org/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.staphb.org/resources/">Resources</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.staphb.org/training/">Training</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.staphb.org/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="http://www.staphb.org/history/">History</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Nextfow and AWS Batch Tutorial</h1>
+    </header>
+
+    <p>Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.</p>
+<h2 id="useful-resources">Useful Resources</h2>
+<p>This tutorial was written using <a href="https://apeltzer.github.io/post/01-aws-nfcore/">Alex Peltzer&rsquo;s guide</a> and <a href="https://antunderwood.gitlab.io/bioinformant-blog/posts/running_nextflow_on_aws_batch/">Anthony Underwood&rsquo;s guide</a> as resources. In addition there are several other resources that you might find helpful when setting this up.</p>
+<ul>
+<li><a href="https://www.nextflow.io/blog/2017/scaling-with-aws-batch.html">Nextflow AWS Batch Blog Post</a></li>
+<li><a href="https://www.nextflow.io/docs/latest/awscloud.html#aws-batch">Nextflow AWS Batch Documentation</a></li>
+<li><a href="https://github.com/nextflow-io/awesome-nextflow#tutorials">List of Nextflow pipelines and Tutorial&rsquo;s</a></li>
+<li><a href="https://gitter.im/nextflow-io/nextflow">Nextflow Gitter Chat</a></li>
+</ul>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#setting-up-a-nextflow-user">Setting up a programmatic user with IAM</a></li>
+<li><a href="#creating-a-custom-ami">Creating a custom Amazon Machine Image (AMI)</a></li>
+<li><a href="#create-aws-batch-compute-environment">Creating an AWS Batch compute environment</a></li>
+<li><a href="#creating-an-aws-batch-job-queue">Creating an AWS Batch Job queue</a></li>
+<li><a href="#setting-up-an-s3-bucket">Setting up an S3 Bucket</a></li>
+<li><a href="#configuring-nextflow-to-use-aws-batch">Configuring Nextflow to use AWS Batch</a></li>
+<li><a href="#tips-and-tricks">Tips and Tricks</a></li>
+</ul>
+<h2 id="setting-up-a-nextflow-user">Setting up a Nextflow User</h2>
+<p>You may be tempted to skip this step if you already have a user with programmatic access to AWS. However, it is best practice to have a separate user account that only has the needed access credentials. This step is also valuable in understanding and setting up the access policies that both Nextflow and AWS Batch need in order to operate.</p>
+<h4 id="step-1-add-a-user">Step 1: Add a user</h4>
+<p>Navigate to the IAM Service and click on Users. Then click <strong>Add user</strong> and in the <strong>User name</strong> box add the user name that you would like, here I used <code>nextflow-programmatic-access</code>. Then select the box for <strong>Prgrammatic access</strong>. When you&rsquo;ve finished click the <strong>Next: Permissions</strong> button.</p>
+<p><img src="http://www.staphb.org/resources/imgs/001.PNG" alt="add user"></p>
+<h4 id="step-2-create-a-group-for-the-user">Step 2: Create a group for the user</h4>
+<p>Next we need to create a group for this user to be a part of. We will later add policies to this group specific to Netflow. Click on the <strong>Create Group</strong> button.</p>
+<p><img src="http://www.staphb.org/resources/imgs/002.PNG" alt="create group">
+In the <strong>Group name</strong> box add the name of the group here I used <code>nextflow-group</code>. Then click the <strong>Create group</strong> button.</p>
+<p><img src="http://www.staphb.org/resources/imgs/003.PNG" alt="name group"></p>
+<p>After adding the group click the <strong>Next: Tags</strong>.</p>
+<h4 id="step-3-tags-and-review">Step 3: Tags and Review</h4>
+<p>This page will allow you to add any extra tags to the account to assign metadata. These are optional, after you&rsquo;ve completed click <strong>Next: Review</strong>. Here you should be presented with a screen that looks similar to below. Click <strong>Create user</strong> to finish the user creation.</p>
+<p><img src="http://www.staphb.org/resources/imgs/004.PNG" alt="review screen"></p>
+<h4 id="step-4-user-creation">Step 4: User Creation</h4>
+<p>After user creation there will be a page that provides the security credentials for using the new Nextflow user. This includes the <strong>Access Key ID</strong> and <strong>Secret access key</strong>. These are crucial and are only generated once at this step. If they are lost you will have to delete and create a new user using the steps above. Click the <strong>Download .csv</strong> button and keep the file in a safe and secure location. These access credentials will be needed later.</p>
+<p><img src="http://www.staphb.org/resources/imgs/005.PNG" alt="user creation success"></p>
+<h4 id="step-5-attach-policies-to-new-group">Step 5: Attach policies to new group</h4>
+<p>From the IAM user panel click <strong>Groups</strong> and click on the nextflow group created above, here we used <code>nextflow-group</code>. Then click on the <strong>Attach Policy</strong> button.</p>
+<p><img src="http://www.staphb.org/resources/imgs/007.PNG" alt="attach policy screen"></p>
+<p>From here we will add the following 3 policies:</p>
+<ul>
+<li><strong>AmazonEC2FullAccess</strong></li>
+<li><strong>AmazonS3FullAccess</strong></li>
+<li><strong>AWSBatchFullAccess</strong></li>
+</ul>
+<p>You can find these by typing them into the Filter box.</p>
+<p><img src="http://www.staphb.org/resources/imgs/011.PNG" alt="final roles"></p>
+<h4 id="step-6-create-roles-for-running-aws-batch">Step 6: Create Roles for running AWS Batch</h4>
+<p>From the IAM user panel click the <strong>Roles</strong> button. Here we will create a role for running EC2 Spot Instances. If you would rather create on-demand instances only you can skip this step, however you can achieve significant cost savings using Spot Instances. Click the <strong>Create role</strong> button.</p>
+<p><img src="http://www.staphb.org/resources/imgs/011a.PNG" alt="create role"></p>
+<p>On the create role page scroll down and find and click on <strong>EC2</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/011b.PNG" alt="create role page">
+<img src="http://www.staphb.org/resources/imgs/011c.PNG" alt="ec2 on role page"></p>
+<p>Then select the <strong>EC2 - Spot Fleet Tagging</strong> use case and click the <strong>Next: Permissions</strong> button you should see the screen below.</p>
+<p><img src="http://www.staphb.org/resources/imgs/011d.PNG" alt="ec2 role"></p>
+<p>Click the <strong>Next: Tags</strong> button add any additional metadata tags you would like then click the <strong>Next: Review</strong> button. Then fill out the <strong>Role name</strong> box with the name for this Role, here I used <code>AmazonEC2SpotFleetRole</code>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/011e.PNG" alt="create role final"></p>
+<p>Once finished click the <strong>Create role</strong> button.</p>
+<h2 id="creating-a-custom-ami">Creating a custom AMI</h2>
+<p>When using Nextflow with Docker and AWS Batch there are a few special requirements for the instances that will be hosting the images and running the processes. The images require a specific configuration to use Amazon&rsquo;s Elastic Container Service (ECS), which allows the use of Docker in the Amazon environment.</p>
+<h4 id="step-1-starting-a-virtual-machine">Step 1: Starting a virtual machine</h4>
+<p>To create the AMI we need the first step is to startup a virtual machine running the base image we need. To start goto the <strong>EC2</strong> Service in the AWS management console. Then click <strong>Instances</strong> and <strong>Launch Instance</strong>. The first step in launching an instance is selecting the AMI. In the search box type <code>ECS</code> and select the <strong>Amazon ECS-Optimized Amazon Linux AMI</strong> image under the <strong>AWS Marketplace</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/012.PNG" alt="select ami"></p>
+<p>A window will pop-up displaying the pricing information for using the AMI. Select <strong>Continue</strong>. The next step is to choose an instance type. Since we are creating this instance to customize the AMI we can select a small instance. Here I chose the t2.medium.</p>
+<p><img src="http://www.staphb.org/resources/imgs/014.PNG" alt="choose instance type"></p>
+<p>The next step is configuring the instance details which can be configured to how you would normally set up an instance for interactive access. Here I use the default settings.</p>
+<p><img src="http://www.staphb.org/resources/imgs/015.PNG" alt="configure instance details"></p>
+<p>In the add storage step we have an option to update the space available to the Docker container. By default the space is set to <strong>22 GB</strong>. This is the allowed space for use by each job that is submitted. Here we need to update the storage space for the needs of our pipeline. I choose to set it to <code>100</code> GB, which provides enough space for all the reads from a typical MiSeq run to fit in a single job with a bit of room to spare. You can change this to any amount you think is necessary for your pipeline. However, keep in mind that you will be paying for the cost of the snapshots. This cost is usually minimal (a few dollars a month) and can be tracked under the <strong>AWS Cost Management</strong>, <strong>Cost Explorer</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/017.PNG" alt="add storage"></p>
+<p>Once the instance storage is configured click the <strong>Next: Add Tags</strong> button and add the metadata tags you see fit. Once finished click the <strong>Next: Configure Security Group</strong>. Configure the instance so you can access it interactively. Once you have finished click the <strong>Review and Launch</strong>.</p>
+<h4 id="step-2-install-dependencies">Step 2: Install dependencies</h4>
+<p>Once the instance is up an running login into the instance using the credentials you selected using the <code>ec2-user</code> account. Once logged in you should see a screen similar to below.</p>
+<p><img src="http://www.staphb.org/resources/imgs/018.PNG" alt="ec2-user login"></p>
+<p>The first step is to adjust the size of the docker storage device to match the updated size. If you use the command <code>docker info</code> you&rsquo;ll notice the <code>Base Device Size: 10.74GB</code>. We need to update this by editing the docker configuration file in <code>/etc/sysconfig/docker-storage</code>. Using <code>sudo vi</code> open the file and add <code>--storage-opt dm.basesize=100GB</code> adjusting the 100GB to reflect the size you picked above. The file should look something like this:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">DOCKER_STORAGE_OPTIONS=&#34;--storage-driver devicemapper --storage-opt dm.thinpooldev=/dev/mapper/docker-docker--pool --storage-opt dm.use_deferred_removal=true --storage-opt dm.use_deferred_deletion=true --storage-opt dm.fs=ext4 --storage-opt dm.use_deferred_deletion=true --storage-opt dm.basesize=100GB&#34;
+</code></pre></div><p>To verify the changes use the command <code>sudo service docker restart</code> and see the changes with <code>docker info</code>.</p>
+<p>After configuring docker the next step is to install AWS-CLI. This is needed by Nextflow to send data from each step. The easiest way is to install via miniconda with the commands below:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86\_64.sh
+bash Miniconda3-latest-Linux-x86\_64.sh -p /home/ec2-user/miniconda
+/home/ec2-user/miniconda/bin/conda install -c conda-forge awscli
+/home/ec2-user/miniconda/bin/aws --version
+</code></pre></div><h4 id="step-3-save-the-image">Step 3: Save the image</h4>
+<p>Once AWS-CLI is installed you can save the image by choosing <strong>Action Image -&gt; Create Image</strong> on the selected image. Give the image an appropriate name and when it has finished creating the image you can terminate the instance. Make note of the AMI <code>ami-01dec29g8b4d78253</code> this will be used later.</p>
+<h2 id="create-aws-batch-compute-environment">Create AWS Batch compute environment</h2>
+<p>Next we have to configure the compute environment where the Nextflow jobs will run. Go to the Batch service in the AWS management console. If this is your first time using batch you will see a screen like below. Click the <strong>Get Started</strong> button.</p>
+<p><img src="http://www.staphb.org/resources/imgs/021.PNG" alt="get started"></p>
+<p>You will then see the setup wizard for AWS Batch. The wizard doesn&rsquo;t setup things the way we need so we will select the <strong>Skip wizard</strong> button shown below.</p>
+<p><img src="http://www.staphb.org/resources/imgs/022.PNG" alt="skip wizard"></p>
+<h4 id="step-1-define-compute-environment-name-and-roles">Step 1: Define compute environment name and roles</h4>
+<p>Once you are at the AWS Batch dashboard select <strong>Compute environments</strong> and <strong>Create environment</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/023.PNG" alt="batch dashboard"></p>
+<p>Then select the box for <strong>Managed</strong> in the compute environment type if not already selected and enter a name in the <strong>Compute environment name</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/024.PNG" alt="create compute start"></p>
+<p>Next select <strong>Create new role</strong> for both <strong>Service role</strong> and <strong>Instance role</strong>. AWS Batch will create roles with the needed permissions. However, we will need to add an aditional policy to the <strong>ecsInstanceRole</strong> later to use AWS S3. You may select an EC2 key pair to be able to ssh into the instance but this is optional.</p>
+<h4 id="step-2-define-compute-environment-resources">Step 2: Define compute environment resources</h4>
+<p>Here we can define if we want to use On-Demand or Spot and how much we are willing to pay. If using On-Demand simply select <strong>On-Demand</strong> in the <strong>Provisioning model</strong> and define the <strong>Allowed instance types</strong> with instance types you wish to use i.e. <strong>c4.xlarge</strong> or <strong>c5.4xlarge</strong>. Set <strong>Allocation strategy</strong> to <strong>BEST_FIT</strong> and continue on to Step 3.</p>
+<p>If you would like to use Spot instances, which can be run at a fraction of the price. Under <strong>Provisioning model</strong> select <strong>Spot</strong>. Then set the <strong>Maximum Price</strong> valued by the % of the On-demand price. Here I picked 50%, which works for most cases. You could also select 100% which means you are willing to go all the way to the On-demand price but if there is a lower price available you&rsquo;ll still get it. <em>Note if you find it taking awhile to create instances try raising this value</em>.</p>
+<p>Then under the <strong>Allocation strategy</strong> select <strong>BEST_FIT</strong> and choose the <strong>AmazonEC2SpotFleetRole</strong> we created earlier. Finally under the <strong>Allowed instance types</strong> select instance types you wish to use i.e. <strong>c4.xlarge</strong> or <strong>c5.4xlarge</strong>. I usually use the c4 and c5 family of instance types but this should be tailored to your workflow.</p>
+<p><img src="http://www.staphb.org/resources/imgs/024a.PNG" alt="define compute"></p>
+<h4 id="step-3-determine-compute-environment-limits">Step 3: Determine compute environment limits</h4>
+<p>Next you will see 3 options including <strong>Minimum vCPUs</strong>, <strong>Desired vCPUs</strong>, and <strong>Maximum vCPUs</strong>. These are used to define the amount of resources that can be used. <strong>Note</strong>: the values are vCPUs not number of instances, so if you only allow instances with 16 vCPUs to be used in your compute environment and you set the minimum vCPUs to 1. You will always have a 16vCPU instance running. The values are further defined as:</p>
+<ul>
+<li>
+<p><strong>Minimum vCPUs</strong> - The minimum number of virtual resources that must be kept running at all times. Setting this to 0 means all resources will be shutdown when not in use. 0 is recommended for cost savings.</p>
+</li>
+<li>
+<p><strong>Desired vCPUs</strong> - This is how many vCPUs you would like to see used. Nextflow will dynamically change this value so we can leave it set to 0.</p>
+</li>
+<li>
+<p><strong>Maximum vCPUs</strong> - This is the maximum number of vCPUs that could be running at any one time. I typically leave this set to <code>256</code> but you can alter it as you see fit.</p>
+</li>
+</ul>
+<p>Finally we need to select the AMI we created in the previous section. Check the box for <strong>Enable user-specified AMI id</strong> and enter the AMI from above then click <strong>Validate AMI</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/026.PNG" alt="resource limits"></p>
+<h4 id="step-3-finish-and-create-the-compute-environment">Step 3: Finish and create the compute environment</h4>
+<p>At the last step, define the subnet you would like your instances to run on (usually just default) and security group then click <strong>Create</strong></p>
+<h4 id="step-4-update-the-ecsinstancerole">Step 4: Update the ecsInstanceRole</h4>
+<p>We need to add the S3 role to the newly created ecsInstanceRole. Go to the IAM service as done in Step 6 in the <a href="#Setting-up-a-Nextflow-User">Setting up a programmatic user with IAM</a> section. Under <strong>Roles</strong> enter <code>ecs</code> in the search box and click on the <strong>ecsInstanceRole</strong>. Click the <strong>Attach policies</strong> and enter <code>S3</code> in the filter box and select the <strong>AmazonS3FullAccess</strong>, then click <strong>Attach policy</strong>.</p>
+<p>You should have both the <strong>AmazonS3FullAccess</strong> and the <strong>AmazonEC2ContainerServiceforEC2Role</strong> policies attached to this role.</p>
+<h2 id="creating-an-aws-batch-job-queue">Creating an AWS Batch Job queue</h2>
+<p>Next we need to create a queue where Nextflow can submit jobs to the compute environment. Navigate to the Batch service on the AWS management console and select <strong>Job queues</strong> and <strong>Create queue</strong>.</p>
+<p>Enter the name of the queue (this will be needed later in nextflow) and give it a priority. A priority of 1 means that jobs submitted to the compute environment via this queue will have priority over jobs submitted via a queue with a lower priority. This does not matter if you only have 1 queue using the compute environment but if you have multiple queues you can define their priorities. Finally in the dropdown box select the compute environment we created in the previous section and click <strong>Create job queue</strong>.</p>
+<p><img src="http://www.staphb.org/resources/imgs/029.PNG" alt="create job queue"></p>
+<h2 id="setting-up-an-s3-bucket">Setting up an S3 Bucket</h2>
+<p>Nextflow can use S3 buckets to store and access data. Go to the <strong>S3</strong> service under the AWS management console and select <strong>Create bucket</strong>. Name the bucket (will be used in the nextflow configuration) and select the appropriate region where you have configured everything else and select <strong>Create bucket</strong>. In the bucket create a folder <code>test_env</code> where Nextflow can work with files.</p>
+<h2 id="configuring-nextflow-to-use-aws-batch">Configuring Nextflow to use AWS Batch</h2>
+<p>In the final section of the guide there are a few parameters that need to be added to the Nextflow config in order to use the AWS Batch environment we created. There are a number of configuration variables that can be set (<a href="https://www.nextflow.io/docs/latest/awscloud.html#awscloud-batch-config">more here</a>) but the basics are:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">//indicate that we want to use awsbatch
+process.executor = &#39;awsbatch&#39;
+
+//indicate the name of the AWS Batch job queue we want to use
+process.queue = &#39;my-batch-queue&#39;
+
+//Name of the docker container we want to use, we can also specify a separate docker container for each process
+process.container = &#39;quay.io/biocontainers/salmon&#39;
+
+//region where we want to run this in
+aws.region = &#39;us-east-1&#39;
+
+//Important note!!! Since we created a custom AMI
+//we need to specify the path to the aws cli tool
+//if you followed the instructions above for custom AMI
+//the path is:
+aws.batch.cliPath = &#39;/home/ec2-user/miniconda/bin/aws&#39;
+
+//Additionally if we want to use S3 to hold intermediate files we can specify the workdirectory
+workDir = &#39;s3://bucket_you_created/test_env/&#39;
+</code></pre></div><p>Finally, the last step is to setup your AWS-CLI and AWS user credentials. To install AWS-CLI on your host system you can follow these steps:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86\_64.sh
+bash Miniconda3-latest-Linux-x86\_64.sh -p /home/ec2-user/miniconda
+/home/ec2-user/miniconda/bin/conda install -c conda-forge awscli
+/home/ec2-user/miniconda/bin/aws --version
+</code></pre></div><p>In the section <a href="#setting-up-a-nextflow-user">Setting up a programmatic user with IAM</a> we created a user that would be able to access the AWS services and launch jobs. One option is to include the credentials in the configuration (<strong>not recommended</strong>):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">aws {
+    accessKey = &#39;&lt;YOUR S3 ACCESS KEY&gt;&#39;
+    secretKey = &#39;&lt;YOUR S3 SECRET KEY&gt;&#39;
+    region = &#39;&lt;REGION IDENTIFIER&gt;&#39;
+}
+</code></pre></div><p>However, this is not recommended as the keys could be made acidentially public if you share your configuration file.</p>
+<p>The best approach is to use the command <code>aws configure</code> and enter the security credentials. After setting these configuration parameters your Nextflow workflow is ready to use AWS Batch!!</p>
+<h2 id="tips-and-tricks">Tips and Tricks</h2>
+<p>AWS can be tricky to navigate if things aren&rsquo;t working. Here are some various places you can look if things aren&rsquo;t going as expected.</p>
+<p>The biggest issue I&rsquo;ve seen is jobs sitting in the <strong>RUNNABLE</strong> step in the AWS Batch Job queues and not moving to <strong>STARTING</strong> or <strong>RUNNING</strong>. This can be cause by a number of issues but it&rsquo;s best to first check the roles and policies created above. Here are the roles and polices you should have:</p>
+<p><strong>Roles and respective policies for AWS Batch</strong></p>
+<ul>
+<li>
+<p>AmazonEC2SpotFleetRole</p>
+</li>
+<li>
+<p>AmazonEC2SpotFleetTaggingRole</p>
+</li>
+<li>
+<p>ecsInstanceRole</p>
+</li>
+<li>
+<p>AmazonS3FullAccess</p>
+</li>
+<li>
+<p>AmazonEC2ContainerServiceforEC2Role</p>
+</li>
+<li>
+<p>AWSBatchServiceRole</p>
+</li>
+<li>
+<p>AWSBatchServiceRole</p>
+</li>
+</ul>
+<p>Additionally, sometimes the jobs will move from <strong>RUNNABLE</strong> to <strong>FAILED</strong>. Clicking the number of jobs in the <strong>FAILED</strong> column will reveal the individual jobs and clicking on one might show the error message that caused it to fail via CloudWatch. That can often help diagnose issues in the compute environment.</p>
+<p>Another location you may find error messages is under the EC2 service:</p>
+<ul>
+<li>If you are running On-Demand in the <strong>Launch Configurations</strong> under the EC2 service will show the configurations launched by AWS Batch and any potentiall issues or errors encountered.</li>
+<li>If you are running Spot instances examining the <strong>Spot Requests</strong> is a good place to look for errors as well.
+h</li>
+</ul>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    <p style="font-size:75%;" >Site supported by <a href="http://www.theiagen.com">Theiagen Consulting LLC</a></p>
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

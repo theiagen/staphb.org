@@ -1,9 +1,13 @@
 ---
 title: "StaPH-B Videos"
-date: 2020-01-20
+date: 2020-02-27
 draft: false
 ---
 Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
+
+##### February 2020 - Cromwell Workflow Manager
+Danny Park, group lead of the viral computational genomics at the Broad Institute and technical consultant for the North East Bioinformatics Regional Resource, spoke about scientific compute workflow management.
+{{< youtube gRBCVqyEHEI >}}
 
 ##### January 2020 - StaPH-B Toolkit
 In this month's call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit. The StaPH-B ToolKit is a Python library written to relieve the burden of major bioinformatics challenges Kelsey and Kevin have identified throughout our respective regions: access to and proper use of StaPH-B docker images, capture of data lineage information, configurable and distributable pipeline parameters, and the portability of StaPH-B developed workflows. This call provided a brief overview of the StaPH-B ToolKit, its design concept, and its utility for public health laboratories. Following presentation,  a live-demo of the StaPH-B ToolKit was presented to demonstrate the simple installation requirements and its major functionalities using a sample dataset.

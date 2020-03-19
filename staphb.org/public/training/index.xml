@@ -6,10 +6,38 @@
     <description>Recent content in Trainings on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2020 16:28:13 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/training/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NCBI and Data Sharing - UNDER DEVELOPMENT</title>
+      <link>http://www.staphb.org/training/ncbi/</link>
+      <pubDate>Wed, 11 Mar 2020 16:28:13 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/ncbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack Training for Scientific Communication</title>
+      <link>http://www.staphb.org/training/slack/</link>
+      <pubDate>Mon, 09 Mar 2020 19:09:38 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/slack/</guid>
+      <description>MTN Region Slack Training In March, Kelly Oakeson gave a webinar on how to use Slack for effective communication, especially within a regional scientific community. The video for this webinar is shared below for those who could not attend.
+  </description>
+    </item>
+    
+    <item>
+      <title>AMR Detection Using NGS</title>
+      <link>http://www.staphb.org/training/amr/</link>
+      <pubDate>Tue, 18 Feb 2020 16:20:59 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/amr/</guid>
+      <description>Demystifying Webinar Series | February 2020 | AMR Detection Using NGS For our February 2020 webinar, we discuss how bacterial species identification is conducted using NGS data. This webinar will examine the different algorithms and databases used for AMR detection, with an emphasis on CGE’s ResFinder and NCBI’s AMRFinderPlus. Upon completion of the webinar, attendees will 1) understand the algorithms behind AMR detection using NGS, 2) the difference between gene based and mutational resistance, and 3) the advantages and limitations of these methods compared to traditional phenotypic testing.</description>
+    </item>
     
     <item>
       <title>Microbial Species ID Using ANI and Mash</title>

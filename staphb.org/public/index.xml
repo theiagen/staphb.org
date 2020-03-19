@@ -6,10 +6,68 @@
     <description>Recent content on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2019 21:06:09 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nextfow and AWS Batch Tutorial</title>
+      <link>http://www.staphb.org/resources/nextflow_aws/</link>
+      <pubDate>Wed, 18 Mar 2020 22:48:37 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/nextflow_aws/</guid>
+      <description>Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.
+Useful Resources This tutorial was written using Alex Peltzer&amp;rsquo;s guide and Anthony Underwood&amp;rsquo;s guide as resources.</description>
+    </item>
+    
+    <item>
+      <title>NCBI and Data Sharing - UNDER DEVELOPMENT</title>
+      <link>http://www.staphb.org/training/ncbi/</link>
+      <pubDate>Wed, 11 Mar 2020 16:28:13 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/ncbi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing Tips and Tricks</title>
+      <link>http://www.staphb.org/resources/cloud/</link>
+      <pubDate>Mon, 09 Mar 2020 21:02:48 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/cloud/</guid>
+      <description>Connecting to Cloud Resources Many people already know how to connect to their VMs through putty of MobaXterm, but the Google Chrome Browser provides a very nice service called &amp;ldquo;Chrome Remote Desktop&amp;rdquo; which allows for a fast and secure GUI connection to your VMs. Here is a short video showing you how to set up Chrome Remote Desktop on your VM.
+  </description>
+    </item>
+    
+    <item>
+      <title>Slack Training for Scientific Communication</title>
+      <link>http://www.staphb.org/training/slack/</link>
+      <pubDate>Mon, 09 Mar 2020 19:09:38 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/slack/</guid>
+      <description>MTN Region Slack Training In March, Kelly Oakeson gave a webinar on how to use Slack for effective communication, especially within a regional scientific community. The video for this webinar is shared below for those who could not attend.
+  </description>
+    </item>
+    
+    <item>
+      <title>StaPH-B Videos</title>
+      <link>http://www.staphb.org/resources/staphb-videos/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
+      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
+February 2020 - Cromwell Workflow Manager Danny Park, group lead of the viral computational genomics at the Broad Institute and technical consultant for the North East Bioinformatics Regional Resource, spoke about scientific compute workflow management.   January 2020 - StaPH-B Toolkit In this month&amp;rsquo;s call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit.</description>
+    </item>
+    
+    <item>
+      <title>AMR Detection Using NGS</title>
+      <link>http://www.staphb.org/training/amr/</link>
+      <pubDate>Tue, 18 Feb 2020 16:20:59 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/amr/</guid>
+      <description>Demystifying Webinar Series | February 2020 | AMR Detection Using NGS For our February 2020 webinar, we discuss how bacterial species identification is conducted using NGS data. This webinar will examine the different algorithms and databases used for AMR detection, with an emphasis on CGE’s ResFinder and NCBI’s AMRFinderPlus. Upon completion of the webinar, attendees will 1) understand the algorithms behind AMR detection using NGS, 2) the difference between gene based and mutational resistance, and 3) the advantages and limitations of these methods compared to traditional phenotypic testing.</description>
+    </item>
     
     <item>
       <title>Microbial Species ID Using ANI and Mash</title>
@@ -34,16 +92,6 @@
       
       <guid>http://www.staphb.org/resources/software_repos/</guid>
       <description>GitHub Pages  StaPH-B Github Repositories - home directory for many StaPH-B repositories including Docker Builds, StaPH-B Toolkit, CDPHE scripts, and the Utah Reference Free scripts. NCBI AMRFinderPlus - GitHub repository of the NCBI Antimicrobial Resistance Gene Finder (AMRFinderPlus). This is the package used by the NCBI Pathogen Detection Browswer to genotype isolates with respece to antimicrobial resistance.  DockerHub  StaPH-B DockerHub - DockerHub site for all the StaPH-B containers created by StaPH-B members.</description>
-    </item>
-    
-    <item>
-      <title>StaPH-B Videos</title>
-      <link>http://www.staphb.org/resources/staphb-videos/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
-      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
-January 2020 - StaPH-B Toolkit In this month&#39;s call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit. The StaPH-B ToolKit is a Python library written to relieve the burden of major bioinformatics challenges Kelsey and Kevin have identified throughout our respective regions: access to and proper use of StaPH-B docker images, capture of data lineage information, configurable and distributable pipeline parameters, and the portability of StaPH-B developed workflows.</description>
     </item>
     
     <item>

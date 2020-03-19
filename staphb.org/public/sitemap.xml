@@ -3,33 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.staphb.org/resources/nextflow_aws/</loc>
+    <lastmod>2020-03-18T22:48:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/</loc>
+    <lastmod>2020-03-18T22:48:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/ncbi/</loc>
+    <lastmod>2020-03-11T16:28:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/</loc>
+    <lastmod>2020-03-11T16:28:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/cloud/</loc>
+    <lastmod>2020-03-09T21:02:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/slack/</loc>
+    <lastmod>2020-03-09T19:09:38+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/staphb-videos/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/amr/</loc>
+    <lastmod>2020-02-18T16:20:59+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.staphb.org/training/bacterial-id/</loc>
     <lastmod>2020-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.staphb.org/</loc>
-    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/</loc>
-    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/resources/</loc>
-    <lastmod>2020-01-20T23:37:03+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.staphb.org/resources/software_repos/</loc>
     <lastmod>2020-01-20T23:37:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/resources/staphb-videos/</loc>
-    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -44,6 +64,11 @@
   
   <url>
     <loc>http://www.staphb.org/history/</loc>
+    <lastmod>2019-12-16T21:06:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/</loc>
     <lastmod>2019-12-16T21:06:09+00:00</lastmod>
   </url>
   
