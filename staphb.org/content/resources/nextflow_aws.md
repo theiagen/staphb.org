@@ -309,3 +309,5 @@ The last step is to enable the nvidia runtime for the docker environment. Usuall
     "default-runtime":"nvidia"
 }
 ```
+
+Once finished follow [Step 2.3 Create the custom AMI](#step-2.3-create-the-custom-ami) and setup a compute environment using the new AMI!
