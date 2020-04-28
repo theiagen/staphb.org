@@ -6,10 +6,20 @@
     <description>Recent content in Resources on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Mar 2020 22:48:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>StaPH-B Videos</title>
+      <link>http://www.staphb.org/resources/staphb-videos/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
+      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
+April 2020 - COVID-19 Special Episode 3: Local Nextstrain As a follow up to our last call, during which Alli Black from the Bedford laboratory spoke about the NextStrain platform and its applications in COVID-19 response efforts, we invited Heather Blankenship&amp;ndash;a bioinformatics scientist at the Michigan public health laboratory&amp;ndash;to speak about her experience setting up a local NextStrain build for real-time COVID-19 surveillance in Michigan.</description>
+    </item>
     
     <item>
       <title>Nextfow and AWS Batch Tutorial</title>
@@ -29,16 +39,6 @@ Useful Resources This tutorial was written using Alex Peltzer&amp;rsquo;s guide 
       <guid>http://www.staphb.org/resources/cloud/</guid>
       <description>Connecting to Cloud Resources Many people already know how to connect to their VMs through putty of MobaXterm, but the Google Chrome Browser provides a very nice service called &amp;ldquo;Chrome Remote Desktop&amp;rdquo; which allows for a fast and secure GUI connection to your VMs. Here is a short video showing you how to set up Chrome Remote Desktop on your VM.
   </description>
-    </item>
-    
-    <item>
-      <title>StaPH-B Videos</title>
-      <link>http://www.staphb.org/resources/staphb-videos/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
-      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
-February 2020 - Cromwell Workflow Manager Danny Park, group lead of the viral computational genomics at the Broad Institute and technical consultant for the North East Bioinformatics Regional Resource, spoke about scientific compute workflow management.   January 2020 - StaPH-B Toolkit In this month&amp;rsquo;s call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit.</description>
     </item>
     
     <item>

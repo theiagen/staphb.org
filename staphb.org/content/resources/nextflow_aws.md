@@ -2,6 +2,10 @@
 title: "Nextfow and AWS Batch Tutorial"
 date: 2020-03-18T22:48:37Z
 draft: false
+type: "custom"
+layout: "tutorial"
+description: "A guide on how to setup AWS Batch to work with Nextflow."
+author: "Kelsey Florek"
 ---
 
 

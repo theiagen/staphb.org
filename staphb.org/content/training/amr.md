@@ -11,13 +11,9 @@ Webinar given to the MTN Region on February 26th, 2020
 
 {{< youtube JibS7W2YW8k >}}
 
-Webinar given to the NE Region on February 27th, 2020
+[Click here for slides for MTN Region webinar.](https://storage.googleapis.com/staphb-resources/staphb-org-files/training-webinar-slides/AMR_webinar_February_2020_MTN_Region.pdf)
 
-{{< youtube cuugt5F9Ef4 >}}
-
-
-[Click here for slides](../files/AMR_webinar_February_2020_MTN_Region.pdf)
-
+[Click here for the webinar given to the NE Region.](https://www.youtube.com/watch?v=cuugt5F9Ef4)
 
 ##### Resources
 

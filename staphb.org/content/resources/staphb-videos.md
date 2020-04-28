@@ -1,9 +1,27 @@
 ---
 title: "StaPH-B Videos"
-date: 2020-02-27
+date: 2020-04-24
 draft: false
 ---
-Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
+Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
+
+#### April 2020 - COVID-19 Special Episode 3: Local Nextstrain
+As a follow up to our last call, during which Alli Black from the Bedford laboratory spoke about the NextStrain platform and its applications in COVID-19 response efforts, we invited Heather Blankenship--a bioinformatics scientist at the Michigan public health laboratory--to speak about her experience setting up a local NextStrain build for real-time COVID-19 surveillance in Michigan.
+
+Heather discussed the advantages of local NextStrain builds for state laboratories and outlined the steps she has taken to set things up in her environment. Following this, we opened the floor for a Q&A session with Heather.
+{{< youtube m4_F2tG58Pc >}}
+
+Here are the [slides](https://storage.googleapis.com/staphb-resources/staphb-org-files/staphb-videos-page/Nextstrain_MDHHS_Blankenship.pptx).
+
+#### April 2020 - COVID-19 Special Epside 2: NextStrain
+In response to the COVID-19 pandemic, we utilized our scheduled call to host a discussion regarding the various COVID-19 sequencing and analysis protocols available to the public health laboratories. A specific focus on the ARTIC Network's protocols for COVID-19 sequencing and genome assembly, as these seem the most appropriate for US state laboratories. Here are the [slides](https://storage.googleapis.com/staphb-resources/staphb-org-files/staphb-videos-page/alliblack-staphb-04-03-2020.pdf) for this presentation.
+{{< youtube 2tyzj4q1QW0 >}}
+
+#### March 2020 - COVID-19 Special Episode 1: SARS-CoV-2 Sequencing
+In response to the COVID-19 pandemic, we utilized our scheduled call to host a discussion regarding the various COVID-19 sequencing and analysis protocols available to the public health laboratories. A specific focus on the ARTIC Network's protocols for COVID-19 sequencing and genome assembly, as these seem the most appropriate for US state laboratories.
+{{< youtube eVtmktNJBm8 >}}
+
+Here are the [slides](https://storage.googleapis.com/staphb-resources/staphb-org-files/staphb-videos-page/SC2_Sequencing_and_Analysis_Libuit.pdf).
 
 ##### February 2020 - Cromwell Workflow Manager
 Danny Park, group lead of the viral computational genomics at the Broad Institute and technical consultant for the North East Bioinformatics Regional Resource, spoke about scientific compute workflow management.

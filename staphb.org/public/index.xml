@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>StaPH-B Videos</title>
+      <link>http://www.staphb.org/resources/staphb-videos/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
+      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
+April 2020 - COVID-19 Special Episode 3: Local Nextstrain As a follow up to our last call, during which Alli Black from the Bedford laboratory spoke about the NextStrain platform and its applications in COVID-19 response efforts, we invited Heather Blankenship&amp;ndash;a bioinformatics scientist at the Michigan public health laboratory&amp;ndash;to speak about her experience setting up a local NextStrain build for real-time COVID-19 surveillance in Michigan.</description>
+    </item>
+    
+    <item>
       <title>Nextfow and AWS Batch Tutorial</title>
       <link>http://www.staphb.org/resources/nextflow_aws/</link>
       <pubDate>Wed, 18 Mar 2020 22:48:37 +0000</pubDate>
@@ -51,16 +61,6 @@ Useful Resources This tutorial was written using Alex Peltzer&amp;rsquo;s guide 
     </item>
     
     <item>
-      <title>StaPH-B Videos</title>
-      <link>http://www.staphb.org/resources/staphb-videos/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/resources/staphb-videos/</guid>
-      <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recoreded and presented here for your review.
-February 2020 - Cromwell Workflow Manager Danny Park, group lead of the viral computational genomics at the Broad Institute and technical consultant for the North East Bioinformatics Regional Resource, spoke about scientific compute workflow management.   January 2020 - StaPH-B Toolkit In this month&amp;rsquo;s call, Kelsey Florek and Kevin Libuit presented on the StaPH-B ToolKit.</description>
-    </item>
-    
-    <item>
       <title>AMR Detection Using NGS</title>
       <link>http://www.staphb.org/training/amr/</link>
       <pubDate>Tue, 18 Feb 2020 16:20:59 +0000</pubDate>
@@ -82,7 +82,7 @@ February 2020 - Cromwell Workflow Manager Danny Park, group lead of the viral co
   &lt;iframe src=&#34;https://www.youtube.com/embed/2Tk6nTUaz40&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;../files/Microbial_ID_webinary_January_2020_MTN_Region.pdf&#34;&gt;Click here for slides&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://storage.googleapis.com/staphb-resources/staphb-org-files/training-webinar-slides/Microbial_ID_webinary_January_2020_MTN_Region.pdf&#34;&gt;Click here for slides&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

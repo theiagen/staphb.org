@@ -11,12 +11,10 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Nextfow and AWS Batch Tutorial"/>
-<meta name="twitter:description" content="Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.
-Useful Resources This tutorial was written using Alex Peltzer&rsquo;s guide and Anthony Underwood&rsquo;s guide as resources."/>
+<meta name="twitter:description" content="A guide on how to setup AWS Batch to work with Nextflow."/>
 
     <meta property="og:title" content="Nextfow and AWS Batch Tutorial" />
-<meta property="og:description" content="Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.
-Useful Resources This tutorial was written using Alex Peltzer&rsquo;s guide and Anthony Underwood&rsquo;s guide as resources." />
+<meta property="og:description" content="A guide on how to setup AWS Batch to work with Nextflow." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.staphb.org/resources/nextflow_aws/" />
 <meta property="article:published_time" content="2020-03-18T22:48:37+00:00" />
@@ -57,7 +55,7 @@ Useful Resources This tutorial was written using Alex Peltzer&rsquo;s guide and 
     <link rel="icon" type="image/png" href="http://www.staphb.org/img/favicon.ico" sizes="32x32">
     <link rel="icon" type="image/png" href="http://www.staphb.org/img/favicon.ico" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.67.1" />
+    <meta name="generator" content="Hugo 0.69.2" />
   </head>
 
   
@@ -104,11 +102,14 @@ Useful Resources This tutorial was written using Alex Peltzer&rsquo;s guide and 
       <div class="content">
         
   <section class="container page">
+  <style>
+    h4 {color:#bc0f43}
+  </style>
   <article>
     <header>
-      <h1>Nextfow and AWS Batch Tutorial</h1>
+      <h1 style="color:#0F75BC">Nextfow and AWS Batch Tutorial</h1>
     </header>
-
+​
     <p>Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.</p>
 <h2 id="useful-resources">Useful Resources</h2>
 <p>This tutorial was written using <a href="https://apeltzer.github.io/post/01-aws-nfcore/">Alex Peltzer&rsquo;s guide</a> and <a href="https://antunderwood.gitlab.io/bioinformant-blog/posts/running_nextflow_on_aws_batch/">Anthony Underwood&rsquo;s guide</a> as resources. In addition there are several other resources that you might find helpful when setting this up.</p>
@@ -276,24 +277,22 @@ bash Miniconda3-latest-Linux-x86\_64.sh -p /home/ec2-user/miniconda
 <ul>
 <li>
 <p>AmazonEC2SpotFleetRole</p>
-</li>
-<li>
-<p>AmazonEC2SpotFleetTaggingRole</p>
+<ul>
+<li>AmazonEC2SpotFleetTaggingRole</li>
+</ul>
 </li>
 <li>
 <p>ecsInstanceRole</p>
-</li>
-<li>
-<p>AmazonS3FullAccess</p>
-</li>
-<li>
-<p>AmazonEC2ContainerServiceforEC2Role</p>
-</li>
-<li>
-<p>AWSBatchServiceRole</p>
+<ul>
+<li>AmazonS3FullAccess</li>
+<li>AmazonEC2ContainerServiceforEC2Role</li>
+</ul>
 </li>
 <li>
 <p>AWSBatchServiceRole</p>
+<ul>
+<li>AWSBatchServiceRole</li>
+</ul>
 </li>
 </ul>
 <p>Additionally, sometimes the jobs will move from <strong>RUNNABLE</strong> to <strong>FAILED</strong>. Clicking the number of jobs in the <strong>FAILED</strong> column will reveal the individual jobs and clicking on one might show the error message that caused it to fail via CloudWatch. That can often help diagnose issues in the compute environment.</p>

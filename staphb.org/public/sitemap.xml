@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.staphb.org/resources/nextflow_aws/</loc>
-    <lastmod>2020-03-18T22:48:37+00:00</lastmod>
+    <loc>http://www.staphb.org/resources/</loc>
+    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.staphb.org/resources/</loc>
+    <loc>http://www.staphb.org/resources/staphb-videos/</loc>
+    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/nextflow_aws/</loc>
     <lastmod>2020-03-18T22:48:37+00:00</lastmod>
   </url>
   
@@ -30,11 +35,6 @@
   <url>
     <loc>http://www.staphb.org/training/slack/</loc>
     <lastmod>2020-03-09T19:09:38+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/resources/staphb-videos/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -7,3 +7,5 @@ draft: true
 ##### Day 1
 
 ___Placeholder for video___
+
+A little background on Acinetobacter.
