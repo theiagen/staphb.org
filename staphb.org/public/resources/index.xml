@@ -6,7 +6,7 @@
     <description>Recent content in Resources on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,11 +14,22 @@
     <item>
       <title>StaPH-B Videos</title>
       <link>http://www.staphb.org/resources/staphb-videos/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 May 2020 12:00:00 +0000</pubDate>
       
       <guid>http://www.staphb.org/resources/staphb-videos/</guid>
       <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
-April 2020 - COVID-19 Special Episode 3: Local Nextstrain As a follow up to our last call, during which Alli Black from the Bedford laboratory spoke about the NextStrain platform and its applications in COVID-19 response efforts, we invited Heather Blankenship&amp;ndash;a bioinformatics scientist at the Michigan public health laboratory&amp;ndash;to speak about her experience setting up a local NextStrain build for real-time COVID-19 surveillance in Michigan.</description>
+May 2020 - COVID-19 Special Episode 5: Tailed Amplicon Sequencing In continuing our discussion regarding SARS-CoV-2 analysis, we have invited Dr. Daryl Gohl from the University of Minnesota to discuss his most recent work: A Rapid, Cost-Effective Tailed Amplicon Method for Sequencing SARS-CoV-2.
+The video can be found here.</description>
+    </item>
+    
+    <item>
+      <title>SARS-CoV-2 Public Health Resources</title>
+      <link>http://www.staphb.org/resources/sars-cov-2/</link>
+      <pubDate>Mon, 11 May 2020 15:13:58 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/sars-cov-2/</guid>
+      <description>This page will server as a starting point for public health laboratories searchgin for information on SARS-CoV-2 sequencing, bioinformatics, and genomic epidemiology. A full page version of these resources can be found HERE.
+ </description>
     </item>
     
     <item>
@@ -58,6 +69,17 @@ Useful Resources This tutorial was written using Alex Peltzer&amp;rsquo;s guide 
       <guid>http://www.staphb.org/resources/online-resources/</guid>
       <description>The public health bioinformatics community is continuosly producing new training content for laboratorians and epidemiologists. Much of this focuses on new technology and its applications. But there is already a wealth of information and training content available if one knows where to look. This section hopes to serve as a resource where currently available material is identified and links provided to that content.
 New York Integrated Food Safety Center of Excellence The NY Integrated Food Safety CoE has extensive online materials for molecular epidemiology targeting both the laboratorian and epidemiologist.</description>
+    </item>
+    
+    <item>
+      <title>Aws_test - UNDER DEVELOPMENT</title>
+      <link>http://www.staphb.org/resources/aws_test/</link>
+      <pubDate>Wed, 01 Jan 2020 00:29:20 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/resources/aws_test/</guid>
+      <description>If you would like to comment on the document below please click here.
+An easier reading html version of this document can be found here.
+   </description>
     </item>
     
     <item>

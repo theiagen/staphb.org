@@ -3,13 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.staphb.org/training/sars-cov-2-resources/</loc>
+    <lastmod>2020-06-10T15:43:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/</loc>
+    <lastmod>2020-06-10T15:43:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/training/</loc>
+    <lastmod>2020-06-10T15:43:02+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.staphb.org/resources/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-13T12:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.staphb.org/resources/staphb-videos/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-13T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.staphb.org/resources/sars-cov-2/</loc>
+    <lastmod>2020-05-11T15:13:58+00:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +39,6 @@
   
   <url>
     <loc>http://www.staphb.org/training/ncbi/</loc>
-    <lastmod>2020-03-11T16:28:13+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/training/</loc>
     <lastmod>2020-03-11T16:28:13+00:00</lastmod>
   </url>
   
@@ -58,17 +73,17 @@
   </url>
   
   <url>
+    <loc>http://www.staphb.org/resources/aws_test/</loc>
+    <lastmod>2020-01-01T00:29:20+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.staphb.org/resources/glossary/</loc>
     <lastmod>2019-12-18T00:44:23+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.staphb.org/history/</loc>
-    <lastmod>2019-12-16T21:06:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.staphb.org/</loc>
     <lastmod>2019-12-16T21:06:09+00:00</lastmod>
   </url>
   

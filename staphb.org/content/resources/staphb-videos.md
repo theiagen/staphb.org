@@ -1,9 +1,25 @@
 ---
 title: "StaPH-B Videos"
-date: 2020-04-24
+date: 2020-05-13T12:00:00Z
 draft: false
 ---
 Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
+
+#### May 2020 - COVID-19 Special Episode 5: Tailed Amplicon Sequencing
+In continuing our discussion regarding SARS-CoV-2 analysis, we have invited Dr. Daryl Gohl from the University of Minnesota to discuss his most recent work: A Rapid, Cost-Effective Tailed Amplicon Method for Sequencing SARS-CoV-2.
+
+The video can be found [here](https://youtu.be/lpnK4Gb_TSE).
+
+#### May 2020 - COVID-19 Special Episode 4: EDGE
+In this call, we continued our discussion regarding SARS-CoV-2 (SC2) genome analysis: Patrick Chain and his team (LANL) discussed a containerized workflow based on the EDGE platform for SC2 sequence data QC, genome assembly, and SNP analysis.
+{{< youtube 5UBXMv7o6wE >}}
+
+#### May 2020 - Bacterial Genome Analysis Using Bactopia
+We've invited Robert Petit and Tim Read from Emory University to present on Bactopia, "an extensive workflow for processing Illumina sequencing of bacterial genomes. The goal of Bactopia is to process your data with a broad set of tools, so that you can get to the fun part of analyses quicker!"
+
+This work was inspired by Staphopia, previous work from Tim and Robert presented to StaPH-B that also enabled extensive data processing, but was built specifically for Staphylococcus aureus read data. Tim and Robert have created a new series of pipelines called Bactopia, built on the Nextflow platform, to provide efficient comparative genomic analysis for any bacterial species or genus. Bactopia can be accessed through GitHub, Docker, Singularity, and Conda.
+
+The video can be found [here](https://www.youtube.com/watch?v=hECn_fTr_uM).
 
 #### April 2020 - COVID-19 Special Episode 3: Local Nextstrain
 As a follow up to our last call, during which Alli Black from the Bedford laboratory spoke about the NextStrain platform and its applications in COVID-19 response efforts, we invited Heather Blankenship--a bioinformatics scientist at the Michigan public health laboratory--to speak about her experience setting up a local NextStrain build for real-time COVID-19 surveillance in Michigan.
