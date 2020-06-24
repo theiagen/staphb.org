@@ -4,7 +4,7 @@ date: 2020-06-10T15:43:02Z
 draft: false
 ---
 
-##### Demystifying Webinar Series | January 2020 | Microbial Species Identification
+##### Demystifying Webinar Series | May 2020 | SARS-CoV-2 Resources
 For our May 2020 webinar, we will discuss the multitude of resoruces available for SARS-CoV-2 sequencing and data sharing, with an emphasis on those resources most applicable to state public health laboratories.
 {{< youtube CNGEBzLQuNE >}}
 

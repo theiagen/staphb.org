@@ -1,9 +1,13 @@
 ---
 title: "StaPH-B Videos"
-date: 2020-05-13T12:00:00Z
+date: 2020-06-13T12:00:00Z
 draft: false
 ---
 Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
+
+#### June 2020 - COVID-19 Special Episode 6: MicrobTrace
+In continuing our discussion regarding SARS-CoV-2 (SC2) genome analysis, we have invited Ellsworth Campbell to discuss MicrobeTrace, a "web-based tool to visually render networks from surveillance, epi investigations, and genetic analysis" that can be leveraged to support COVID-19 outbreak investigations. Ellsworth presented on the MicrobeTrace platform and provided useful information on how epidemiologists can utilize MicrobeTrace reports and visualizations to inform public health action. Following this, we opened the floor for a Q&A session with Ellsworth.
+{{< youtube he0Yq5yvToc >}}
 
 #### May 2020 - COVID-19 Special Episode 5: Tailed Amplicon Sequencing
 In continuing our discussion regarding SARS-CoV-2 analysis, we have invited Dr. Daryl Gohl from the University of Minnesota to discuss his most recent work: A Rapid, Cost-Effective Tailed Amplicon Method for Sequencing SARS-CoV-2.

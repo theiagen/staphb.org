@@ -6,10 +6,21 @@
     <description>Recent content in Trainings on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2020 15:43:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 17:53:49 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/training/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Intro to Sequence Similarity Searching for Public Health Bioinformatics</title>
+      <link>http://www.staphb.org/training/pairwise/</link>
+      <pubDate>Sun, 14 Jun 2020 17:53:49 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/pairwise/</guid>
+      <description>The above video is Session 8 of the June 2020 AMD Acadmey. It is hosted as an unlisted video and no password is required. The slides for this presentation can be found HERE.
+Additional resources There were many references discussed in this presentation. Most of those references can be found in this Paperpile library.
+During the ANI-MASH portion, there were several Tableau visualizations. These visualizations are linked in my original ANI-MASH presentation HERE.</description>
+    </item>
     
     <item>
       <title>SARS-CoV-2 Resources Webinar</title>
@@ -17,7 +28,7 @@
       <pubDate>Wed, 10 Jun 2020 15:43:02 +0000</pubDate>
       
       <guid>http://www.staphb.org/training/sars-cov-2-resources/</guid>
-      <description>Demystifying Webinar Series | January 2020 | Microbial Species Identification For our May 2020 webinar, we will discuss the multitude of resoruces available for SARS-CoV-2 sequencing and data sharing, with an emphasis on those resources most applicable to state public health laboratories.   Click here for slides
+      <description>Demystifying Webinar Series | May 2020 | SARS-CoV-2 Resources For our May 2020 webinar, we will discuss the multitude of resoruces available for SARS-CoV-2 sequencing and data sharing, with an emphasis on those resources most applicable to state public health laboratories.   Click here for slides
 Northeast Region video is HERE
 Northeast slides are HERE</description>
     </item>
