@@ -6,10 +6,20 @@
     <description>Recent content in Trainings on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jun 2020 17:53:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 16:48:54 +0000</lastBuildDate>
     
 	<atom:link href="http://www.staphb.org/training/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MTN Region SARS-CoV-2 Training</title>
+      <link>http://www.staphb.org/training/mtn-region-sc2/</link>
+      <pubDate>Fri, 26 Jun 2020 16:48:54 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/mtn-region-sc2/</guid>
+      <description>Training Prerequisites In order for this training to be effective for all students participating, each student should perform the following before the first class:
+ Confirm that they can connect to their VM. Watch a 75 minute video on the linux operating system. Watch a short video on tmux, a linux application that allows for multiple terminals.  Connect to your VM In the slack channel will be listed your VM IP address, along with a ssh key file.</description>
+    </item>
     
     <item>
       <title>Intro to Sequence Similarity Searching for Public Health Bioinformatics</title>
