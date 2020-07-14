@@ -26,50 +26,216 @@ Some additional resources that you will find useful when starting out are:
 *   [Linux command reference](https://fossbytes.com/a-z-list-linux-command-line-reference/)
 *   [tmux cheat sheet](https://tmuxcheatsheet.com/)
 
-### Agenda (subject to change based on student interests)
+### Agenda Overview
 
+*__Session 1 - Linux__* - Monday July 6th, 12 PM and 2 PM MDT   
+*__Session 2 - Background on Viral Genomics and Coronaviruses__*  - Tuesday, July 7th, 12 PM and 2 PM MDT   
+*__Session 3 - Sequencing Methods for SARS-CoV-2__* - Wednesday July 8th, 12 PM and 2 PM MDT   
+*__Session 4 - StaPH-B Toolkit__* - Monday July 13th, 12 PM and 2 PM MDT   
+*__Session 5 - UPHL BioNGS__* - Tuesday July 14th, 12 PM and 2 PM MDT   
+*__Session 6 - Commercial Options__* - Wednesday July 15th, 12 PM and 2 PM MDT   
+*__Session 7 - NGS Data Visualization for QC of Results__* - Monday July 20th, 12 PM and 2 PM MDT   
+*__Session 8 - Data Sharing with GISAID and NCBI__* - Tuesday July 21st, 12 PM and 2 PM MDT   
+*__Session 9 - Data Visualization in Nextstrain__* - Wednesday July 22nd, 12 PM and 2 PM MDT
+
+Office hours will be offered each week on Thursday from 2 PM to 4 PM MDT, on Friday from 9 AM to 11 AM MDT, and by request.
+
+### Expanded Agenda (will contain links, videos, code, as course progresses)  
 ##### Week 1
 
-__Session 1 - Linux__   
-*   Linux basics
-*   Connecting to Basespace
-*   Connecting to cloud resources
+*__Session 1 - Linux__*
 
-__Session 2 - Background on Viral Genomics and Coronaviruses__   
-*   Viral genomics primer
-*   Considerations of bacteria vs viral pathogens
-*   Coronavirus, the new flu.
+__[Recording for Session 1 - 12:00 PM MDT](https://youtu.be/R_SR7A8o6d8)__
 
-__Session 3 - [Sequencing Methods for SARS-CoV-2](https://github.com/CDCgov/SARS-CoV-2_Sequencing)__
-*   Metagenomics, enrichment, amplicon
-*   The [ARTIC](https://artic.network/ncov-2019) protocol
-*   [ARTIC + Illumina DNA Flex](https://www.protocols.io/file-manager/E2F61524120340C3B7C07A7C9E755CB0)
+__[Recording for Session 1 - 3:00 PM MDT](https://youtu.be/XbU_UmFSkf8)__
+
+* Linux basics
+* Working in Tmux
+  * [Tmux Cheat Sheet](https://tmuxcheatsheet.com/)
+  * [Tmux Video](https://www.youtube.com/watch?v=oxuRxtrO2Ag)
+* Connecting to Basespace
+  * [Basespace CLI](https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview)
+* Connecting to cloud resources
+  * [gsutil](https://cloud.google.com/storage/docs/gsutil)
+* Transferring data to your VM for the class
+
+
+
+__Commands used in this session__
+```
+***bash commands***
+
+dir                           #lists out a directory
+ls                            #also lists out a directory
+ls -la                        #lists out a directroy with details
+ll                            #alias for ls -la
+cd <directory>                #change directory
+cd                            #will bring you to your home directory
+mkdir <dir>                   #make directory
+rmdir <dir>                   #remove directory if it is empty
+rm -rf <dir>                  #remove directory if it is full
+gzip <name.fastq>             #zip a read file
+
+***tmux***
+
+tmux ls                       #list open tmux sessions
+tmux new -s <name>            #start a tmux session called <name>
+tmux a -t <name>              #attach to tmux session called <name>
+tmux kill-session -t <name>   #kill tmux session called <name>
+Ctrl-b ,                      #rename current window
+Ctrl-b c                      #create new window
+Ctrl-b n                      #go to next window
+tmux info                     #help
+
+***basespace cli***
+
+bs auth                                   #authenticate to Basespace
+bs list projects                          #list projects in basespace
+bs download project -n <name> -o <dir>    #download project files to <dir>
+
+***gsutils***
+
+gsutil ls                                 #list storage buckets
+gsutil cp <source> <destination>          #cp data from storage bucket
+
+***sra-toolkit*** - might need to "sudo apt-get install sra-toolkit"
+
+prefetch <sra_id>
+fastq-dump --split-files --gzip <sra_id>
+```
+
+*__Session 2 - Background on Viral Genomics and Coronaviruses__*
+
+__[Recording for Session 2 - 12 PM MDT](https://youtu.be/_UoIDdXmI2A)__
+
+__[Recording for Session 2 - 3 PM MDT](https://youtu.be/YqAFqWWMDUM)__
+
+__[Session 2 Slides](https://storage.googleapis.com/staphb-resources/staphb-org-files/training-webinar-slides/MTN-2020-Session2-CoronavirusGenomics.pdf)__
+
+* Viral genomics primer
+* Considerations of bacteria vs viral pathogens
+* Coronavirus, the new flu.
+* [Papers on Coronaviruses](https://paperpile.com/shared/dU0ZnG)
+
+__REMINDER 7/7__ --> register for a [GISAID account](https://www.gisaid.org/registration/register/)
+
+*__Session 3 - [Sequencing Methods for SARS-CoV-2](https://github.com/CDCgov/SARS-CoV-2_Sequencing)__*
+
+__[Recording for Session 3 - 12 PM MDT](https://youtu.be/vwqvZcyLD_E)__
+
+__[Recording for Session 3 - 3 PM MDT](https://youtu.be/cXHPWbMGR8g)__
+
+* Metagenomics, enrichment, amplicon
+* The [ARTIC](https://artic.network/ncov-2019) protocol
+* [ARTIC + Illumina DNA Flex](https://www.protocols.io/file-manager/E2F61524120340C3B7C07A7C9E755CB0) at protocols.io.
 
 ##### Week 2
 
-__Session 4 - [StaPH-B Toolkit](https://github.com/StaPH-B/staphb_toolkit)__
-*   Monroe pipeline
-*   pe_assembly
-*   cluster_analysis
+*__Session 4 - [StaPH-B Toolkit](https://github.com/StaPH-B/staphb_toolkit)__*
 
-__Session 5 - UPHL BioNGS__
-*   [Cecret SARS-CoV-2 pipeline](https://github.com/UPHL-BioNGS/Cecret)
+__[Recording for Session 4 - 12 PM MDT](https://youtu.be/h6l7tdNWXU4)__ (Watch the 3 PM instead)
 
-__Session 6 - Commercial Options__
-*   [CLC Genomics Workbench](https://go.qiagen.com/QDI-COVID19)
+__[Recording for Session 4 - 3 PM MDT](https://youtu.be/nrXgNtbghCs)__ (This is the better recording)
+
+* Monroe pipeline
+* pe_assembly
+* cluster_analysis
+
+[Documentation on Monroe](https://staph-b.github.io/staphb_toolkit/workflow_docs/monroe/)
+
+Some commands to make today's session easier
+```
+tmux new -s session4
+
+mkdir session4-1
+cd session4-1
+gsutil ls
+gsutil ls gs://mtn-reads/
+gsutil -m cp -r gs://mtn-reads/session4/* .
+tar -xf reads.tar
+mkdir reads
+mv *.gz reads
+rm reads.tar
+staphb-wf monroe
+staphb-wf monroe pe_assembly
+staphb-wf monroe pe_assembly --primers V3 --output pe_assembly_1 --config 20-07-11_pe_assembly.config reads
+
+staphb-wf monroe cluster_analysis
+staphb-wf monroe cluster_analysis --output cluster_analysis_1 --config 20-07-11_cluster_analysis.config pe_assembly_1/assemblies/
+
+
+```
+
+*__Session 5 - UPHL BioNGS__*
+* [Cecret SARS-CoV-2 pipeline](https://github.com/UPHL-BioNGS/Cecret)
+
+Some commands to make today's exercises easier
+```
+#see if you have a tmux session open
+tmux ls
+
+#create a new tmux session called session5
+tmux new -s session5
+
+#create new window in your tmux session
+<create new window in tmux with Ctrl-b, c>
+
+#copy over session files
+gsutil -m cp -r gs://mtn-reads/session5/* .
+
+#extract the session files
+tar -xf session5_files_2.tar
+
+#change dir into cecret_session5
+cd cecret_session5
+
+#check out covid_samples.txt
+column -t covid_samples.txt | less -S
+
+#copy new Cecret.nf to your Cecret folder
+cp Cecret.nf ~/Cecret/
+
+#check thatt Cecret.nf was updated
+ll ~/Cecret
+
+#launch Cecret - will take about 50 minutes with 10 specimens
+~/nextflow ~/Cecret/Cecret.nf -c cecret.docker.nextflow.google.config
+
+#go up one directory to session5
+cd ..
+
+#unpack bakeshow data
+tar -xf session5_files.tar
+
+#move into bakeshow directory
+cd cecret_bakeshow
+
+#check out run_results.txt
+column -t run_results.txt | less -S
+
+
+```
+
+*__Session 6 - Commercial Options__*
+
+*__UPDATE:__* Most likely we will continue looking at Monroe and Cecret results
+
+* [CLC Genomics Workbench](https://go.qiagen.com/QDI-COVID19)
 
 ##### Week 3
 
-__Session 7 - NGS Data Visualization for QC of Results__
-*   [CLC Genomics Workbench](https://go.qiagen.com/QDI-COVID19)
-*   [Mega-X](https://www.megasoftware.net/)
-*   [Integrated Genomics Viewer](http://software.broadinstitute.org/software/igv/) (IGV)
+*__Session 7 - NGS Data Visualization for QC of Results__*
+* [CLC Genomics Workbench](https://go.qiagen.com/QDI-COVID19)
+* [Mega-X](https://www.megasoftware.net/)
+* [Integrated Genomics Viewer](http://software.broadinstitute.org/software/igv/) (IGV)
 
-__Session 8 - Data Sharing with GISAID and NCBI__
-*   [GISAID](https://www.gisaid.org/) vs [Genbank](https://www.ncbi.nlm.nih.gov/genbank/) vs [SRA](https://www.ncbi.nlm.nih.gov/sra)
-*   Walkthrough of each process
+*__Session 8 - Data Sharing with GISAID and NCBI__*
+* [GISAID](https://www.gisaid.org/) vs [Genbank](https://www.ncbi.nlm.nih.gov/genbank/) vs [SRA](https://www.ncbi.nlm.nih.gov/sra)
+* Walkthrough of each process
 
-__Session 9 - Genomic and Meta Data Visualization in Nextstrain__
+*__Session 9 - Genomic and Meta Data Visualization in Nextstrain__*
 
-*   Intro to [NextStrain](https://nextstrain.org/) for visualization
-*   Running on [herokuapp.com](https://auspice-us.herokuapp.com/)
+* Intro to [NextStrain](https://nextstrain.org/) for visualization
+* Running on [herokuapp.com](https://auspice-us.herokuapp.com/)
+* [Tutorial](https://nextstrain.github.io/ncov/)
+* [NextStrain Clades](https://clades.nextstrain.org/)
