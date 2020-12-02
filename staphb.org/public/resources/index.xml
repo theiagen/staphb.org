@@ -6,11 +6,7 @@
     <description>Recent content in Resources on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jun 2020 12:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 13 Jun 2020 12:00:00 +0000</lastBuildDate><atom:link href="http://www.staphb.org/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>StaPH-B Videos</title>
       <link>http://www.staphb.org/resources/staphb-videos/</link>
@@ -18,7 +14,7 @@
       
       <guid>http://www.staphb.org/resources/staphb-videos/</guid>
       <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
-June 2020 - COVID-19 Special Episode 6: MicrobTrace In continuing our discussion regarding SARS-CoV-2 (SC2) genome analysis, we have invited Ellsworth Campbell to discuss MicrobeTrace, a &amp;ldquo;web-based tool to visually render networks from surveillance, epi investigations, and genetic analysis&amp;rdquo; that can be leveraged to support COVID-19 outbreak investigations. Ellsworth presented on the MicrobeTrace platform and provided useful information on how epidemiologists can utilize MicrobeTrace reports and visualizations to inform public health action.</description>
+August 2020 - Candida Auris NGS StaPH-B&amp;rsquo;s August call featured Nancy Chow and Rory Welsh of the CDC mycotic diseases branch. Nancy and Rory spoke about the growing threat of the drug resistant organism Candida auris, and some initiatives that are underway to detect and prevent the spread of this particular pathogen.</description>
     </item>
     
     <item>

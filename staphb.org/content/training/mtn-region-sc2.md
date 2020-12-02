@@ -169,6 +169,16 @@ staphb-wf monroe cluster_analysis --output cluster_analysis_1 --config 20-07-11_
 *__Session 5 - UPHL BioNGS__*
 * [Cecret SARS-CoV-2 pipeline](https://github.com/UPHL-BioNGS/Cecret)
 
+__[Recording for Session 5 - 12 PM MDT](https://youtu.be/jWEyBGTq6W8)__
+
+__[Recording for Session 5 - 3 PM MDT](https://youtu.be/Z-QL8s1BBK4)__
+
+Data files
+
+[session5_files.tar](https://storage.googleapis.com/staphb-resources/session5_files.tar)
+
+[session5_files_2.tar](https://storage.googleapis.com/staphb-resources/session5_files_2.tar)
+
 Some commands to make today's exercises easier
 ```
 #see if you have a tmux session open
@@ -199,7 +209,7 @@ cp Cecret.nf ~/Cecret/
 ll ~/Cecret
 
 #launch Cecret - will take about 50 minutes with 10 specimens
-~/nextflow ~/Cecret/Cecret.nf -c cecret.docker.nextflow.google.config
+~/nextflow run ~/Cecret/Cecret.nf -c cecret.docker.nextflow.google.config
 
 #go up one directory to session5
 cd ..
@@ -216,25 +226,52 @@ column -t run_results.txt | less -S
 
 ```
 
-*__Session 6 - Commercial Options__*
+*__Session 6 - Cecret and Monroe Continued__*
 
 *__UPDATE:__* Most likely we will continue looking at Monroe and Cecret results
 
+__[Recording for Session 6 - 12 PM MDT](https://youtu.be/RJecZ8vA1S8)__
+
+__[Recording for Session 6 - 3 PM MDT](https://youtu.be/fwwtr2vYgaE)__
+
+Not covered:
 * [CLC Genomics Workbench](https://go.qiagen.com/QDI-COVID19)
 
 ##### Week 3
 
-*__Session 7 - NGS Data Visualization for QC of Results__*
+*__Session 7 - Data Sharing with GISAID and NCBI__*
+
+__[Recording for Session 7 - 12 PM MDT](https://youtu.be/GgoQjLxYouA)__
+
+__[Recording for Session 7 - 3 PM MDT](https://youtu.be/comk7G9ddvg)__
+
+Topics update:
+* Data sharing with [GISAID](https://www.gisaid.org/)
+
+Topics not covered, future webinars:
 * [CLC Genomics Workbench](https://go.qiagen.com/QDI-COVID19)
 * [Mega-X](https://www.megasoftware.net/)
 * [Integrated Genomics Viewer](http://software.broadinstitute.org/software/igv/) (IGV)
 
 *__Session 8 - Data Sharing with GISAID and NCBI__*
-* [GISAID](https://www.gisaid.org/) vs [Genbank](https://www.ncbi.nlm.nih.gov/genbank/) vs [SRA](https://www.ncbi.nlm.nih.gov/sra)
-* Walkthrough of each process
 
-*__Session 9 - Genomic and Meta Data Visualization in Nextstrain__*
+__[Recording for Session 8 - 12 PM MDT](https://youtu.be/5S2lFWIloso)__
 
+__[Recording for Session 8 - 3 PM MDT](https://youtu.be/qyomji9WpxY)__
+
+Topics update:
+* Data sharing with [SRA](https://www.ncbi.nlm.nih.gov/sra)
+
+*__Session 9 - More Data Sharing__*
+
+__[Recording for Session 9 - 12 PM MDT](https://youtu.be/lTejITeZgt0)__
+
+__[Recording for Session 9 - 3 PM  MDT](https://youtu.be/tlUXLaP2au4)__
+
+Topics update:
+* Data sharing with [Genbank](https://www.ncbi.nlm.nih.gov/genbank/)
+
+Topics not covered below, will have future webinars.
 * Intro to [NextStrain](https://nextstrain.org/) for visualization
 * Running on [herokuapp.com](https://auspice-us.herokuapp.com/)
 * [Tutorial](https://nextstrain.github.io/ncov/)

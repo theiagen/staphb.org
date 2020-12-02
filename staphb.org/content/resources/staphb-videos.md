@@ -5,6 +5,15 @@ draft: false
 ---
 Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
 
+#### August 2020 - Candida Auris NGS
+StaPH-B's August call featured Nancy Chow and Rory Welsh of the CDC mycotic diseases branch.  Nancy and Rory spoke about the growing threat of the drug resistant organism Candida auris, and some initiatives that are underway to detect and prevent the spread of this particular pathogen.
+
+The video can be found [HERE](https://youtu.be/C3YCm3WOY0A).
+
+#### July 2020 - COVID-19 Special Epidose 7: Pangolin, Llama, and Civet
+In continuing our discussion regarding SARS-CoV-2 (SC2) genome analysis, we have invited Aine O'Toole from the Rambaut lab at the Univeristy of Edinburgh in the UK.  She discussed a few different tools she and others have been working on, pangolin, llama, and civet, all aimed at lineage typing the SARS-CoV-2 virus circulating around the UK and abroad. She discussed development of the tools, plans developing them going forward, as well as the role they play in the COG-UK consortium.
+{{< youtube xoy61SW1U2E >}}
+
 #### June 2020 - COVID-19 Special Episode 6: MicrobTrace
 In continuing our discussion regarding SARS-CoV-2 (SC2) genome analysis, we have invited Ellsworth Campbell to discuss MicrobeTrace, a "web-based tool to visually render networks from surveillance, epi investigations, and genetic analysis" that can be leveraged to support COVID-19 outbreak investigations. Ellsworth presented on the MicrobeTrace platform and provided useful information on how epidemiologists can utilize MicrobeTrace reports and visualizations to inform public health action. Following this, we opened the floor for a Q&A session with Ellsworth.
 {{< youtube he0Yq5yvToc >}}

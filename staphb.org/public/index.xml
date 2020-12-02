@@ -6,10 +6,16 @@
     <description>Recent content on StaPH-B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2020 16:48:54 +0000</lastBuildDate>
-    
-	<atom:link href="http://www.staphb.org/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 01 Sep 2020 16:31:01 +0000</lastBuildDate><atom:link href="http://www.staphb.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Northeast Region SARS-CoV-2 Training</title>
+      <link>http://www.staphb.org/training/ne-region-sc2/</link>
+      <pubDate>Tue, 01 Sep 2020 16:31:01 +0000</pubDate>
+      
+      <guid>http://www.staphb.org/training/ne-region-sc2/</guid>
+      <description>Training Prerequisites In order for this training to be effective for all students participating, each student should perform the following before the first class:
+ Confirm that they can connect to their VM. Watch a 75 minute video on the linux operating system. Watch a short video on tmux, a linux application that allows for multiple terminals.  Connect to your VM In the slack channel will be listed your VM IP address, along with a ssh key file.</description>
+    </item>
     
     <item>
       <title>MTN Region SARS-CoV-2 Training</title>
@@ -39,7 +45,7 @@ During the ANI-MASH portion, there were several Tableau visualizations. These vi
       
       <guid>http://www.staphb.org/resources/staphb-videos/</guid>
       <description>Every month the StaPH-B community gets together for an online presentation. These presenations are recorded and presented here for your review.
-June 2020 - COVID-19 Special Episode 6: MicrobTrace In continuing our discussion regarding SARS-CoV-2 (SC2) genome analysis, we have invited Ellsworth Campbell to discuss MicrobeTrace, a &amp;ldquo;web-based tool to visually render networks from surveillance, epi investigations, and genetic analysis&amp;rdquo; that can be leveraged to support COVID-19 outbreak investigations. Ellsworth presented on the MicrobeTrace platform and provided useful information on how epidemiologists can utilize MicrobeTrace reports and visualizations to inform public health action.</description>
+August 2020 - Candida Auris NGS StaPH-B&amp;rsquo;s August call featured Nancy Chow and Rory Welsh of the CDC mycotic diseases branch. Nancy and Rory spoke about the growing threat of the drug resistant organism Candida auris, and some initiatives that are underway to detect and prevent the spread of this particular pathogen.</description>
     </item>
     
     <item>
@@ -71,15 +77,6 @@ Northeast slides are HERE</description>
       <guid>http://www.staphb.org/resources/nextflow_aws/</guid>
       <description>Amazon Web Services Batch is a service that allows users to submit jobs to job queues while specifying the application to be run and compute resources that are needed by the job. Working in concert with Nextflow, AWS Batch can be configured to run Nextflow processes in defined compute environments minimizing the cost of cloud resources.
 Useful Resources This tutorial was written using Alex Peltzer&amp;rsquo;s guide and Anthony Underwood&amp;rsquo;s guide as resources.</description>
-    </item>
-    
-    <item>
-      <title>NCBI and Data Sharing - UNDER DEVELOPMENT</title>
-      <link>http://www.staphb.org/training/ncbi/</link>
-      <pubDate>Wed, 11 Mar 2020 16:28:13 +0000</pubDate>
-      
-      <guid>http://www.staphb.org/training/ncbi/</guid>
-      <description></description>
     </item>
     
     <item>

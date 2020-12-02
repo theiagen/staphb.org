@@ -57,7 +57,7 @@
     <link rel="icon" type="image/png" href="http://www.staphb.org/img/favicon.ico" sizes="32x32">
     <link rel="icon" type="image/png" href="http://www.staphb.org/img/favicon.ico" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.74.1" />
+    <meta name="generator" content="Hugo 0.75.1" />
   </head>
 
   
@@ -256,6 +256,11 @@ staphb-wf monroe cluster_analysis --output cluster_analysis_1 --config 20-07-11_
 <ul>
 <li><a href="https://github.com/UPHL-BioNGS/Cecret">Cecret SARS-CoV-2 pipeline</a></li>
 </ul>
+<p><strong><a href="https://youtu.be/jWEyBGTq6W8">Recording for Session 5 - 12 PM MDT</a></strong></p>
+<p><strong><a href="https://youtu.be/Z-QL8s1BBK4">Recording for Session 5 - 3 PM MDT</a></strong></p>
+<p>Data files</p>
+<p><a href="https://storage.googleapis.com/staphb-resources/session5_files.tar">session5_files.tar</a></p>
+<p><a href="https://storage.googleapis.com/staphb-resources/session5_files_2.tar">session5_files_2.tar</a></p>
 <p>Some commands to make today&rsquo;s exercises easier</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">#see if you have a tmux session open
 tmux ls
@@ -275,27 +280,68 @@ tar -xf session5_files_2.tar
 #change dir into cecret_session5
 cd cecret_session5
 
-#launch Cecret
-~/nextflow ~/Cecret/Cecret.nf -c cecret.docker.nextflow.google.config
+#check out covid_samples.txt
+column -t covid_samples.txt | less -S
+
+#copy new Cecret.nf to your Cecret folder
+cp Cecret.nf ~/Cecret/
+
+#check thatt Cecret.nf was updated
+ll ~/Cecret
+
+#launch Cecret - will take about 50 minutes with 10 specimens
+~/nextflow run ~/Cecret/Cecret.nf -c cecret.docker.nextflow.google.config
+
+#go up one directory to session5
+cd ..
+
+#unpack bakeshow data
+tar -xf session5_files.tar
+
+#move into bakeshow directory
+cd cecret_bakeshow
+
+#check out run_results.txt
+column -t run_results.txt | less -S
 
 
-</code></pre></div><p><em><strong>Session 6 - Commercial Options</strong></em></p>
+</code></pre></div><p><em><strong>Session 6 - Cecret and Monroe Continued</strong></em></p>
+<p><em><strong>UPDATE:</strong></em> Most likely we will continue looking at Monroe and Cecret results</p>
+<p><strong><a href="https://youtu.be/RJecZ8vA1S8">Recording for Session 6 - 12 PM MDT</a></strong></p>
+<p><strong><a href="https://youtu.be/fwwtr2vYgaE">Recording for Session 6 - 3 PM MDT</a></strong></p>
+<p>Not covered:</p>
 <ul>
 <li><a href="https://go.qiagen.com/QDI-COVID19">CLC Genomics Workbench</a></li>
 </ul>
 <h5 id="week-3">Week 3</h5>
-<p><em><strong>Session 7 - NGS Data Visualization for QC of Results</strong></em></p>
+<p><em><strong>Session 7 - Data Sharing with GISAID and NCBI</strong></em></p>
+<p><strong><a href="https://youtu.be/GgoQjLxYouA">Recording for Session 7 - 12 PM MDT</a></strong></p>
+<p><strong><a href="https://youtu.be/comk7G9ddvg">Recording for Session 7 - 3 PM MDT</a></strong></p>
+<p>Topics update:</p>
+<ul>
+<li>Data sharing with <a href="https://www.gisaid.org/">GISAID</a></li>
+</ul>
+<p>Topics not covered, future webinars:</p>
 <ul>
 <li><a href="https://go.qiagen.com/QDI-COVID19">CLC Genomics Workbench</a></li>
 <li><a href="https://www.megasoftware.net/">Mega-X</a></li>
 <li><a href="http://software.broadinstitute.org/software/igv/">Integrated Genomics Viewer</a> (IGV)</li>
 </ul>
 <p><em><strong>Session 8 - Data Sharing with GISAID and NCBI</strong></em></p>
+<p><strong><a href="https://youtu.be/5S2lFWIloso">Recording for Session 8 - 12 PM MDT</a></strong></p>
+<p><strong><a href="https://youtu.be/qyomji9WpxY">Recording for Session 8 - 3 PM MDT</a></strong></p>
+<p>Topics update:</p>
 <ul>
-<li><a href="https://www.gisaid.org/">GISAID</a> vs <a href="https://www.ncbi.nlm.nih.gov/genbank/">Genbank</a> vs <a href="https://www.ncbi.nlm.nih.gov/sra">SRA</a></li>
-<li>Walkthrough of each process</li>
+<li>Data sharing with <a href="https://www.ncbi.nlm.nih.gov/sra">SRA</a></li>
 </ul>
-<p><em><strong>Session 9 - Genomic and Meta Data Visualization in Nextstrain</strong></em></p>
+<p><em><strong>Session 9 - More Data Sharing</strong></em></p>
+<p><strong><a href="https://youtu.be/lTejITeZgt0">Recording for Session 9 - 12 PM MDT</a></strong></p>
+<p><strong><a href="https://youtu.be/tlUXLaP2au4">Recording for Session 9 - 3 PM  MDT</a></strong></p>
+<p>Topics update:</p>
+<ul>
+<li>Data sharing with <a href="https://www.ncbi.nlm.nih.gov/genbank/">Genbank</a></li>
+</ul>
+<p>Topics not covered below, will have future webinars.</p>
 <ul>
 <li>Intro to <a href="https://nextstrain.org/">NextStrain</a> for visualization</li>
 <li>Running on <a href="https://auspice-us.herokuapp.com/">herokuapp.com</a></li>
